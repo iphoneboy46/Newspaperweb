@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css
+" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .img1 {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .p1 {
+            border-style: outset;
+            border-color: black;
+            font-size: 14em;
+
+            color: black;
+            overflow: auto;
+
+        }
+
+        .p2 {
+            color: white;
+        }
+
+        hr {
+            border-width: 1em;
+            border-color: black;
+            width: 83.5em;
+            margin-left: 22em;
+            margin-top: -3em;
+        }
+
+        button {
+            width: 2em;
+            height: 1.9em
+        }
+
+        input {
+            margin-top: 1em;
+            width: 10em;
+            margin-left: 2em;
+        }
+
+        .a1 {
+            margin-left: 2em;
+            color: white;
+            font-weight: 900;
+            font-size: 2em;
+
+        }
+
+        .a2 {
+            font-size: 1em;
+            color: white;
+
+        }
+
+        .a3 {
+            color: white;
+
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: black;
+        }
+
+        nav {
+            background-color: black;
+            font-size: 1em;
+        }
+
+        h3 {
+            color: white;
+            font-weight: bolder;
+        }
+
+        button {
+            background-color: white;
+
+        }
+
+        body {
+            border-style: initial;
+            border-color: black;
+        }
+
+        .imgh1 {
+            width: 800px;
+            height: 400px;
+
+        }
+
+        .imgh2 {
+            width: 600px;
+            height: 250px;
+        }
+
+
+        h1 {
+            background-color: white;
+            opacity: 0.8;
+            margin: auto;
+            text-align: center;
+            font-size: 3em;
+            font-weight: bolder;
+            padding: 1em 0em;
+        }
+
+        .h10new {
+            background-color: white;
+            text-align: center;
+            font-size: 2.5em;
+            width: 10em;
+           padding: 0.1em;
+        }
+
+        h2 {
+            font-weight: bolder;
+            background-color: white;
+            width: 30%;
+            opacity: 0.8;
+            color: red;
+        }
+
+        h4 {
+            background-color: white;
+            opacity: 0.8;
+            font-size: 1.5em;
+        }
+
+        a {
+            color: black;
+            font-weight: bolder;
+
+
+        }
+
+        marquee {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            font-weight: bolder;
+
+        }
+
+        .marquee1 {
+            background-color: grey;
+            color: white;
+            padding: 1em;
+        }
+
+
+        .cap {
+            margin-top: -8em;
+            margin-left: .5em;
+
+        }
+
+        .imgnew {
+            width: 100px;
+            float: left;
+            clear: both
+        }
+
+        .anew {
+            font-size: 1.5em;
+         }
+
+        .newh2 {
+            background-color: red;
+            color: white;
+            margin: left;
+            width: 5em;
+            padding: 0em 1em;
+        }
+
+        .imgnew2 {
+            width: 500px;
+            height: 300px;
+
+        }
+
+        .img23 {
+            overflow: auto;
+            width: 1070px;
+            height: 400px;
+            padding: 1em 0em;
+
+        }
+
+        .a23 {
+            margin: auto;
+            font-size: 4em;
+            width: 80%;
+        }
+
+        .anew1 {
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+
+        .newh3 {
+            background-color: red;
+            color: white;
+            margin: left;
+            width: 14em;
+            padding: 0em 1em;
+        }
+
+        .pnews {
+            font-size: 5em;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            padding: 1em;
+            ;
+        }
+
+        .border {
+            border: black solid;
+            overflow: auto;
+            padding: 1em;
+            
+        }
+        .thu{
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: -4em;
+        }
+        .imgkhoa{
+      width: 30em;
+      height: 30em;
+    }
+    .h3khoa{
+      color: red;
+    }
+    
+    p{
+        font-size: 1.5em;
+    }
+    th{
+        font-size: 1.5em;
+    }
+    td{
+        font-size: 1.2em;
+    }
+    h3{
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+    .h{
+        width: 50%;
+        font-size: 3em;
+        color: black;
+        margin: auto;
+        text-align: center;
+    }  
+    .navbar a1,
+        li {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+            font-size: 1.5em !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+            margin-left: 1.5em;
+        }
+
+        .nav {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+
+        }  
+        header{
+            padding-top: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+        </div>
+
+
+        <hr>
+
+        <marquee>- - - - DNBC is an online newspaper website that always updates the worldwide information on sports and
+            sports ... always gives readers the fastest and most accurate information regardless of the location. Visit
+            DNBC NEWS website
+            - - - - </marquee>
+    </header>
+
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+            <nav class="nav navbar-default navbar-fixed-top" class="col-md-10 col-sm-10 col-xs-10">
+                <ul class="nav navbar-nav navbar-form">
+                    <li><a style="color: white;" href="home.html">HOME</a></li>
+                    <li><a style="color: white;" href="news.html">NEWS</a></li>
+                    <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
+                    <li><a style="color: white;" href="sport.html">SPORT</a></li>
+                    <li><a style="color: white;" href="tech.html">TECH</a></li>
+                    <li><a style="color: white;" href="city2.html">CITY</a></li>
+                    <li><a style="color: white;" href="feeback.html">FEELBACK</a></li>
+    
+                </ul>
+                <div class="col-md-2 col-sm-2 col-xs-2 "><input type="search" placeholder="Search"><button><span
+                            class="glyphicon glyphicon-search"></span></button></div>
+            </nav>
+           
+        </div>
+    </div>
+    <div style="background-color: lightgray;">
+        <div class="container">
+            <div>
+                <p class="pnews">COVID</p>
+                 <p class="thu">FIRDAY - JULY 17 - 2020 </p>   
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-7">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="imgh1"> <img class="imgh1" src="home/h1.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>COVID</h2>
+                                    <h4><a href="covid2/covid.html" style="text-decoration: none;"> VIRUS SPREAD How many coronavirus deaths
+                                        and cases have there been in
+                                        the UK?</a><br>
+                                        <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i> </h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="imgh1"><img class="imgh1" src="home/h16.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>COVID</h2>
+                                    <h4><a href="" style="text-decoration: none;"> UK
+                                            coronavirus official death toll jumps by 233 as grim total nears 42,000 </a><br>
+                                            <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="imgh1"><img class="imgh1" src="home/h6.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>COVID</h2>
+                                    <h4><a href="covid2/covid4.html" style="text-decoration: none;"> CORONA CHAOS 12 million lowest
+                                        income individuals may not get stimulus checks because they don’t earn enough to be on tax
+                                        system
+                                        </a><br>
+                                        <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i> </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-5">
+                    <h10 class="h10new">COVID</h10>
+                    
+                    <div class="border">
+
+                        <div><img class="imgnew" src="home/h7.jpg"><a class="anew1" href="covid2/covid5.html">JOBLESS MAP OF BRITAIN The areas
+                            worst and least affected by unemployment in lockdown revealed – so where does your town rank?</a></div>
+                        <br>
+                        <div><img class="imgnew" src="home/h8.jpg"><a class="anew1" href="covid2/covid6.html">HIGH
+                            HOPES London records fewer
+                            deaths than a normal week making it first region to emerge from Covid crisis</a></div>
+                        <br>
+                        <div><img class="imgnew" src="home/h44.jpg"><a class="anew1" href="">SUPER STRAIN Terrifyingly contagious coronavirus strain that spreads SIX TIMES faster found in South Korea and fast becoming dominant</a></div>
+                        <br>
+                        <div><img class="imgnew" src="home/h45.jpg"><a class="anew1" href="">SPANISH FLU China blames SPAIN for coronavirus suggesting Covid-19 originated in Europe and not in Wuhan</a></div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <br><br>
+            <div class="col-md-12" style="padding: 1em;" class="container">
+                <h2 class="a23">SUMMARY OF COVID INFORMATION</h2>
+
+            <br><br><br>
+                <div style="border: black solid; padding: 1em;">
+                <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <h2 class="h">Where the corona come from?</h2>
+                      <a href="#khoa"><img src="covid/covid1.jpg" alt="" style="width:100%;height:45em;"></a>
+                      <div class="carousel-caption">
+                        <h2 class="h">Click the image for more information</h2>
+                      </div>
+                    </div>
+              
+                    <div class="item">
+                      <h2 class="h">Effect of corona</h2>
+                      <a href="#akhoa"><img src="covid/covid2.jpg" alt="" style="width:100%;height: 45em;"></a>
+                      <div class="carousel-caption">
+                        <h2 class="h">Click the image for more information</h2>
+                      </div>
+                    </div>
+                  
+                    <div class="item">
+                      <h2 class="h">WHO</h2>
+                      <a href="#vkhoa"><img src="covid/covid3.jpg" alt="" style="width:100%;height: 45em;"></a>
+                      <div class="carousel-caption">
+                        <h2 class="h">Click the image for more information</h2>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <h2 class="h">World's corona</h2>
+                      <a href="#tvkhoa"><img src="covid/covid4.jpg" alt="" style="width:100%;height: 45em;"></a>
+                      <div class="carousel-caption">
+                        <h2 class="h">Click the image for more information</h2>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <br><br>
+                
+                <div id="khoa">
+                  <img src="covid/covid1.jpg" id="ảnh" class="imgkhoa">
+                  <div id="figure-container">
+                      <h3 class="h3khoa">China</h3>
+                      <p>The corona virus appears in Wuhan, China, at the end of 2019, where there is a group of infected cases at an animal market.The corona virus, officially known as Sars-CoV-2, is closely related to the virus that infects bats, but it is thought that it was transmitted from bats to a mysterious animal then transmitted to humans
+                      </p>
+                      <h3 class="h3khoa">In china,they  decided not to investigate the origin of corona virus.So why they did that?</h3>
+                      <p>Professor Wei Zongyou of Fudan University (China) argues that Beijing hates that countries "assume they are guilty", that is, an investigation is carried out, but in the beginning they have thought that a virus originated from China. Therefore, the more international pressure is, the more China will refuse. Professor Sulmaan Khan of Tufts University (USA) is different. Mr Sulmaan said that the main reason why China refused to conduct an international investigation was because of fear of losing face. "It's like a bunch of people come in front of you and say you're not competent to do it so they will do it for you," the US expert argued. 
+                      </p>
+                  </div>
+                </div>
+                <div id="akhoa">
+                  <img src="covid/covid2.jpg" id="ảnh" class="imgkhoa">
+                  <div id="figure-container">
+                      <h3 class="h3khoa">Corona is the most dangerous virus nowadays.</h3>
+                      <p>For most patients, COVID-19 begins and ends in the lungs, the reason being that the corona virus family mainly causes respiratory disease. The spread begins when an infected person coughs or sneezes, sending droplets of virus-containing liquid to the next person.
+              
+                        The initial symptoms of coronavirus infection are similar to those of regular flu: patients may develop a fever, cough, then continue to develop pneumonia or get worse.
+                        
+                        After the SARS epidemic, WHO observed that the disease usually attacks the lungs in three stages: The first is the invasion of cells, forming the virus drive; This is followed by disrupting the immune system (for example, cytokine storm syndrome); and eventually lung damage.
+                        
+                        Not all patients go through all three stages, only about 25% of SARS patients suffer from respiratory failure - a major manifestation of serious illness. Similarly, preliminary data show that COVID-19 causes mild symptoms in 82% of patients, the remainder is severe or critical.
+                        Professor Matthew B. Faeman, a virus expert at the University of Maryland (USA), observed that COVID-19 has progressed like SARS. In the early days of infection, the virus overwhelmed the lung cells, mainly the cilia cell, which protects mucous cells.
+                        
+                        Losing that protective layer, the airways will be filled with dirt, fluids and viruses. This attack causes many COVID-19 patients to have inflammation of both lungs, accompanied by shortness of breath, Professor Frieman said.
+                        
+                        This is when phase 2 begins. Before the invasion of the virus, the body responds by boosting immune cells to the lungs to repair damage. If functioning properly, this inflammatory process is controlled and limited to the virus-infected part.
+                        </p>
+                  </div>
+                </div>
+                <div id="vkhoa">
+                  <img src="covid/covid3.jpg" id="ảnh" class="imgkhoa">
+                  <div id="figure-container">
+                          <h3 class="h3khoa">What did who say about corona?</h3>
+                          <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.
+                            Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.
+                            The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face. 
+                            The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes, so it’s important that you also practice respiratory etiquette (for example, by coughing into a flexed elbow).
+                            At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.
+                            </p>
+                            <h3 class="h3khoa">How to prevent from corona virus??</h3>
+                            <p>19 People can protect themselves through the following measures: * If you live in an epidemic area in China or return from an epidemic area, note the latest information on the disease situation and stay healthy in the following ways: Maintain a 1-2 meter communication distance between you and others, especially those who are coughing, sneezing and having a fever. Avoid touching your eyes, nose and mouth. Wash your hands often with an alcohol-based hand sanitizer or with soap and water. If you have a fever, cough and shortness of breath, go to the clinic early and tell the medical staff where you went. * If you do not live or do not go to an epidemic area in China and do not interact with the affected people, note the latest information and just need and stay healthy in the following ways: Ensuring a balanced diet, getting enough sleep and taking regular precautions for the flu. Avoid touching your eyes, nose and mouth Wash your hands often with soap and water or an alcohol-based hand cleaner</p>
+                  </div>
+                </div>
+                <div id="tvkhoa">
+                  <img src="covid/covid4.jpg" id="ảnh" class="imgkhoa">
+                  <div id="figure-container">
+                    <div class="table-responsive">
+                      <table class="table table-bordered table-striped table-hover table-striped">
+                          <caption class="h3khoa"><h3>The numbers</h3></caption>
+                          <thead>
+                              <tr class="danger">
+                                  <th>April</th>
+                                  <th>Indonesia</th>
+                                  <th>France</th>
+                                  <th>China</th>
+                                  <th>Vietnam</th>
+                                  <th>Thailand</th>
+                                  <th>Campuchia</th>
+                                  <th>Phillipine</th>
+                                  <th>India</th>
+                                  <th>Laos</th>
+                                  <th>World</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>Number of infections</td>
+                                  <td>40400</td>
+                                  <td>157000</td>
+                                  <td>83221</td>
+                                  <td>334</td>
+                                  <td>3135</td>
+                                  <td>128</td>
+                                  <td>26420</td>
+                                  <td>343000</td>
+                                  <td>19</td>
+                                  <td>9237691</td>
+                              </tr>
+                              <tr>
+                                  <td>Recovered people</td>
+                                  <td>15703</td>
+                                  <td>72859</td>
+                                  <td>78377</td>
+                                  <td>323</td>
+                                  <td>2993</td>
+                                  <td>125</td>
+                                  <td>6252</td>
+                                  <td>180000</td>
+                                  <td>19</td>
+                                  <td>4613425</td>
+                              </tr>
+                              <tr>
+                                 <td>Deaths</td>
+                                 <td>2231</td>
+                                 <td>29436</td>
+                                 <td>4634</td>
+                                 <td>0</td>
+                                 <td>58</td>
+                                 <td>0</td>
+                                 <td>1098</td>
+                                 <td>9900</td>
+                                 <td>0</td>
+                                 <td>476911</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+
+
+
+
+
+
+    <footer class="nav navbar-form">
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <li><a class="a3" href="home.html">HOME</a></li>
+                <li><a class="a3" href="news.html">NEWS</a></li>
+                <li><a class="a3" href="covid2.html">COVID-19</a></li>
+                <li><a class="a3" href="sport.html">SPORT</a></li>
+                <li><a class="a3" href="tech.html">TECH</a></li>
+                <li><a class="a3" href="city2.html">CITY</a></li>
+
+            </div>
+            <div class="col-md-4">
+                <h3>Location</h3>
+
+                <i style="color: white;" class="fas fa-map-marker-alt"></i><a class="a2" href="location.html"> Lon Don</a><br>
+                <h3>Contact</h3>
+                <i style="color: lightcoral;" class="fas fa-envelope-square"></i><a class="a2" href="mailto:iphoneboy46@gmail.com"> Mail</a><br>
+                <i style="color: white;" class="fas fa-phone-square-alt"> 0927110910</i><br>
+
+            </div>
+            <div class="col-md-4">
+                <h3>Follow</h3>
+                <i style="color: blue;" class="fab fa-facebook"></i><a class="a2" href="https://www.facebook.com/"> Facebook</a><br>
+                <i style="color: lightblue;" class="fab fa-twitter"></i><a class="a2" href="https://twitter.com/explore"> Twitter</a><br><br>
+                <p style="color: white;"> @copyright DNBC NEWS 2020</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css
+" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 11px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+  color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+  color: #fff !important;
+  background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+  color: #fff ;
+  background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  background-color: red !important;
+}
+.jumbotron {
+  background-color:black /* Orange */
+}
+#smallimgkhoa{
+  padding-top: 0.2em;
+}
+#smallimgkhoaa{
+  padding-top: 0.2em;
+
+}
+
+
+* {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .img1 {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .p1 {
+            border-style: outset;
+            border-color: black;
+            font-size: 14em;
+
+            color: black;
+            overflow: auto;
+
+        }
+
+        .p2 {
+            color: white;
+        }
+        .pnews {
+            font-size: 5em;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            padding: 1em;;
+        }
+
+        hr {
+            border-width: 1em;
+            border-color: black;
+            width: 80em;
+            margin-left: 22em;
+            margin-top: -3em;
+        }
+
+        button {
+            width: 2em;
+            height: 1.9em
+        }
+
+        input {
+            margin-top: 1em;
+            width: 10em;
+            margin-left: 2em;
+        }
+
+        .a1 {
+            margin-left: 2em;
+            color: white;
+            font-weight: 900;
+            font-size: 2em;
+
+        }
+
+        .a2 {
+            font-size: 1em;
+            color: white;
+
+        }
+
+        .a3 {
+            color: white;
+
+            font-size: 1.5em;
+        }
+
+        footer {
+            background-color: black;
+        }
+
+        nav {
+            background-color: black;
+        }
+
+        h3 {
+            color: white;
+            font-weight: bolder;
+        }
+
+        button {
+            background-color: white;
+
+        }
+
+        body {
+            border-style: initial;
+            border-color: black;
+        }
+
+        .imgh1 {
+            width: 900px;
+            height: 500px;
+
+        }
+
+        .imgh2 {
+            width: 600px;
+            height: 250px;
+        }
+
+
+        h1 {
+            background-color: white;
+            opacity: 0.8;
+
+
+        }
+
+        h2 {
+            font-weight: bolder;
+            background-color: white;
+            width: 30%;
+            opacity: 0.8;
+            color: red;
+        }
+
+        h4 {
+            background-color: white;
+            opacity: 0.8;
+        }
+
+        a {
+            color: black;
+            font-weight: bolder;
+
+
+        }
+
+        marquee {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            font-weight: bolder;
+
+        }
+        .marquee1{
+            background-color: grey;
+            color: white;
+            padding: 1em;
+        }
+
+        .cap {
+            margin-top: -8em;
+            margin-left: .5em;
+
+        }
+
+        .imgnew {
+            width: 100px;
+            float: left;
+            clear: both
+        }
+
+        .anew {
+            font-size: 1.5em;
+
+
+
+
+        }
+
+        .newh2 {
+            background-color: red;
+            color: white;
+            margin: left;
+           
+           text-align: center;
+            overflow: auto;
+        }
+
+        .imgcity {
+            width: 1000px;
+            height: 400px;
+            padding-left: 10em;
+
+        }
+
+        .anewcity {
+            font-size: 2em;
+
+        }
+
+        .h2city {
+            font-weight: bolder;
+            background-color: red;
+            width: 5em;
+            opacity: 0.8;
+            color: white;
+            padding: 0em 1.5em;
+            margin-left: 20em;
+        }
+
+        .anew1 {
+            font-size: 1em;
+            text-decoration: none;
+        }
+
+        .newh3 {
+            background-color: red;
+            color: white;
+            margin: left;
+            width: 14em;
+            padding: 0em 1em;
+        }
+
+        .border {
+            border: black solid;
+            overflow: auto;
+            padding: 1em;
+            
+        }
+
+        .border:hover {
+            transform: translateY(1em);
+            transition: all ease-in-out 1s;
+            overflow: hidden;
+            opacity: 1;
+        
+
+        }
+        .thu{
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: -4em;
+        }
+</style>
+</head>
+<body>
+  <header >
+    <div class="col-md-12 col-sm-12 col-xs-12"></div>
+        <p class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+    
+
+
+    <hr>
+</div>
+
+<div>
+    <marquee >- - - - DNBC is an online newspaper website that always updates the worldwide information on sports and
+        sports ... always gives readers the fastest and most accurate information regardless of the location. Visit
+        DNBC NEWS website
+        - - - - </marquee>
+</div>
+
+    
+</header>
+<nav class="navbar navbar-form" class="col-md-12 col-sm-12 col-xs-12" >
+    <ul class="nav navbar-nav">
+        <li><a class="a1" href="home.html">HOME</a></li>
+        <li><a class="a1" href="news.html">NEWS</a></li>
+        <li><a class="a1" href="covid2.html">COVID-19</a></li>
+        <li><a class="a1" href="sport.html">SPORT</a></li>
+        <li><a class="a1" href="tech.html">LIFE</a></li>
+        <li><a class="a1" href="city.html">CITY</a></li>
+        <li><a class="a1" href="feeback.html">FEELBACK</a></li>
+        <a class="a1" href=""></a><input type="search" placeholder="Search"><button><span
+                class="glyphicon glyphicon-search"></span></button>
+    </ul>
+
+</nav>
+<div style="background-color: lightgray;">
+    <div>
+        <p class="pnews">CITY</p>
+         <p class="thu">FIRDAY - JULY 17 - 2020 </p>   
+    </div>
+    <br><br><br>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Home</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#tokyo">TOKYO</a></li>
+              <li><a href="#newyork">NEWYORK</a></li>
+              <li><a href="#seoul">SEOUL</a></li>
+              <li><a href="#venice">VENICE</a></li>
+              <li><a href="#paris">PARIS</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron text-center">
+        <h1 style="color:black;">TOP 5 CITIES IN THE WORLD</h1>
+        <p style="color: white;">The world is home to some 4,416 cities - from the crumbling grandeur of Rome to the bristling, ultra-modern towers of Shanghai. It includes tiny Adamstown, a microscopic settlement in the Pitcairn Islands with a population of only 48; it includes Venice, a floating city laced by idyllic canals and breathtaking palazzos. And like the people who inhabit them, each has its own distinctive personality, allure, photo-worthy moments, and reasons to pay them a visit. Here, in our humble opinion, are the world’s most special cities.
+        </p>
+      </div>
+      <table>
+        <tr>
+          <td>
+            <img src="img newyork/city.jpg" alt="">
+          </td>
+          <td>
+            <img src="img paris/effiel.jpg" alt="">
+          </td>
+          <td>
+            <img src="img venice/river.jpg" alt="">
+          </td>
+          <td>
+            <img src="img newyork/food.jpg" alt="">
+          </td>
+          <td>
+            <img src="img venice/food.jpg" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img seoul/nightlife.jpg" alt="">
+          </td>
+          <td>
+            <img src="img tokyo/tokyotower.jpg" alt="">
+          </td>
+          <td>
+          <img src="img tokyo/food.jpg" alt="">
+          </td>
+          <td>
+            <img src="img tokyo/cityscape.JPG" alt="">
+          </td>
+          <td>
+            <img src="img paris/food.jpg" alt="">
+          </td>
+        </tr>
+      </table>
+      <div id="tokyo" class="container" style="color: white; background-color: black;">
+        <h1 style="color: red;">1/Tokyo</h1>
+        <img src="img tokyo/tokyotower.jpg" alt="" class="imgkhoa">
+        <p>
+          <h2>History</h2>
+          Architecture in Tokyo has largely been shaped by Tokyo's history. Twice in recent history has the metropolis been left in ruins: first in the 1923 Great Kantō earthquake and later after extensive firebombing in World War II. Because of this, Tokyo's urban landscape consists mainly of modern and contemporary architecture, and older buildings are scarce. <br><br>
+          Tokyo features many internationally famous forms of modern architecture including Tokyo International Forum, Asahi Beer Hall, Mode Gakuen Cocoon Tower, NTT Docomo Yoyogi Building and Rainbow Bridge. Tokyo also features two distinctive towers: Tokyo Tower, and the new Tokyo Skytree, which is the tallest tower in both Japan and the world, and the second tallest structure in the world after the Burj Khalifa in Dubai. 
+      </p>
+      <h1 style="color: red;">Food</h1>
+      <table>
+        <tr>
+          <td>
+            <img src="img tokyo/food1.jpg" alt="">
+          </td>
+          <td>
+            Tokyo is one of the world's most exciting dining destinations. The city features a wide range of both local and regional Japanese cuisine in addition to all types of international fare. Its top restaurants have accrued more Michelin stars than both Paris and New York combined. But good food can be found at every price range from cheap hole-in-the-wall joints to expensive high-class restaurants with every budget in between. <br> <br>
+            As Japan's political center for over four centuries, Tokyo has naturally exerted great influence on Japanese cuisine. Consequently, some Tokyo specialties have become so popular that they are now known as the standard version of the dish rather than a local specialty.
+          </td>
+        </tr>
+      </table>
+      <h1 style="color: red;">Population</h1>
+      <table>
+        <tr>
+          <td><img src="img tokyo/population.gif" alt=""></td>
+          <td>Tokyo's 2020 population is now estimated at 37,393,128. In 1950, the population of Tokyo was 11,274,641. Tokyo has grown by 137,020 since 2015, which represents a 0.07% annual change. These population estimates and projections come from the latest revision of the UN World Urbanization Prospects. These estimates represent the Urban agglomeration of Tokyo, which typically includes Tokyo's population in addition to adjacent suburban areas. <br><br>
+          According to recent estimates, the 23 wards that make up the city of Tokyo had an approximate 2016 population of 9,262,046. The 23 wards made up the boundaries of the historic city of Tokyo, which was officially dissolved in 1943 when it merged with the prefecture. Today, Tokyo extends way beyond the original city boundaries, and is one of the largest urban sprawls in the world, which doesn't make it easy to explain exactly how many people live in Tokyo.</td>
+        </tr>
+      </table>
+      <h1 style="color: red;">culture</h1>
+      <table>
+        <tr>
+          <td>
+            <img src="img tokyo/culture.jpg" alt="">
+          </td>
+          <td>
+            There are two main religions in Japan: Shinto and Buddhism. Shinto is a Japanese religion, while Buddhism was imported in the 6th century from China. A recent poll found that 39% of Japanese people identify as Buddhist, 3.9% as Shinto and 2.3% as Christian.<br><br>
+            <b style="color:red;font-size: 1em;font-family: Verdana, Geneva, Tahoma, sans-serif;">I</b>n Japan, the largest holiday is the New Year’s celebration. During spring and summer, celebrations for the gods of the land and sea, or Matsuri, take place. Each town holds its own Matsuri, and these celebrations are widely attended by all.<br><br><b style="color:red;font-size: 1em;font-family: Verdana, Geneva, Tahoma, sans-serif;">T</b>he traditional family unit in Japan is called “Kazoku,” comprising of a mother, father and their children. Traditionally, the Kazoku often live with their elderly parents. However, more recently, three generation household numbers have fallen in favor of more modern arrangements.
+        </td>
+        </tr>
+      </table>
+      <h1 style="color: red;">Personal safety</h1>
+      <table>
+        <tr>
+          <td>
+            <img src="img tokyo/safe.jpg" alt="">
+          </td>
+          <td>
+            Tokyo ranks fourth for personal safety. <br>In fact, Tokyo is considered a very safe city in this regard because people are not much likely to encounter violence, theft or personal crimes that still take place everyday.<br> world street. However, the city still faces corruption and organized crime, which is why it is not ranked higher.<br> However, although organized crime like the yakuza still exists, residents of Tokyo are not really affected by their activities in the city.<br> This is quite different when comparing Tokyo with other cities in the world.
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="container" id="newyork" style="background-color: darkblue; color: orange;">
+      <h1>2/Newyork</h1>
+      <img src="img newyork/city.jpg" alt="">
+      <h2>Early history</h2>
+      <p>In 1609, the English explorer Henry Hudson rediscovered New York Harbor while searching for the Northwest Passage to the Orient for the Dutch East India Company.He proceeded to sail up what the Dutch would name the North River (now the Hudson River), named first by Hudson as the Mauritius after Maurice, Prince of Orange. Hudson's first mate described the harbor as "a very good Harbour for all windes" and the river as "a mile broad" and "full of fish". Hudson sailed roughly 150 miles (240 km) north, past the site of the present-day New York State capital city of Albany, in the belief that it might be an oceanic tributary before the river became too shallow to continue.He made a ten-day exploration of the area and claimed the region for the Dutch East India Company. In 1614, the area between Cape Cod and Delaware Bay was claimed by the Netherlands and called Nieuw-Nederland (New Netherland). <br> <br>
+      The first non-Native American inhabitant of what would eventually become New York City was Juan Rodriguez (transliterated to Dutch as Jan Rodrigues), a merchant from Santo Domingo. Born in Santo Domingo of Portuguese and African descent, he arrived in Manhattan during the winter of 1613–14, trapping for pelts and trading with the local population as a representative of the Dutch. Broadway, from 159th Street to 218th Street in Upper Manhattan, is named Juan Rodriguez Way in his honor.</p>
+      <h2>Cuisine</h2>
+    <table>
+      <tr>
+        <td><img src="img newyork/food1.jpg" alt=""></td>
+        <td>The cuisine of New York City comprises many cuisines belonging to various ethnic groups that have entered the United States through the city. Almost all ethnic cuisines are well represented in New York City, both within and outside the various ethnic neighborhoods.
+          <br><br>
+         New York City was also the founding city of New York Restaurant Week which has spread around the world due to the discounted prices that such a deal offers. In New York City there are over 12,000 bodegas, delis and groceries and many among them are open 24 hours a day, 7 days a week.Much of the cuisine usually associated with New York City stems in part from its large community of Ashkenazi Jews and their descendants. The world famous New York institution of the "Delicatessen," commonly referred to as a "Deli," was originally an institution of the city's Jewry. </td>
+      </tr>
+    </table>
+    <h1>Culture movements</h1>
+    <table>
+      <tr>
+        <td><img src="img newyork/culture.jpg"></td>
+        <td>The city is the birthplace of many cultural movements, including the Harlem Renaissance in literature and visual art; abstract expressionism (also known as the New York School) in painting; and hip hop, punk, salsa, freestyle, Tin Pan Alley, certain forms of jazz, and (along with Philadelphia) disco in music. New York City has been considered the dance capital of the world. The city is also frequently the setting for novels, movies (see List of films set in New York City), and television programs. <br><br>
+        Artists have been drawn into the city by opportunity, as the city government funds the arts with a larger annual budget than the National Endowment for the Arts, and New York is a major center of the global art market which grew up along with national and international media centers.</td>
+      </tr>
+    </table>
+    <h1>Nightlife</h1>
+    <table>
+      <tr>
+        <td><img src="img newyork/nightlife.jpg" alt=""></td>
+        <td>NYC is rightfully known for its nightlife. Whether that means sophisticated cocktail dens, friendly dive bars or bottle-service-only dance clubs, the City’s after-dark entertainment is just as electrifying as it ever was. <br><br>
+          In this section, find out where to drink, dance and listen to music—all around the five boroughs.At night ,there are many things take people's attention,many kinds of entertainment that is available and generally more popular from the late evening into the early hours of the morningIt includes pubs, bars, nightclubs, parties, live music, concerts, cabarets, theatre, cinemas, and shows.</td>
+      </tr>
+    </table>
+    <h1>Population</h1>
+    <table>
+      <tr>
+        <td>
+          <img src="img newyork/popu.png" alt="">
+        </td>
+        <td>
+          In 2017, the city had an estimated population density of 28,491 inhabitants per square mile (11,000/km2), rendering it the nation's most densely populated of all municipalities (of more than 100,000), with several small cities (of fewer than 100,000) in adjacent Hudson County, New Jersey having greater density, as per the 2010 census Geographically co-extensive with New York County, the borough of Manhattan's 2017 population density of 72,918 inhabitants per square mile (28,154/km2)makes it the highest of any county in the United States and higher than the density of any individual American city.
+        </td>
+      </tr>
+    </table>
+    </div>
+    <div class="container" id="seoul" style="color: green; background-color: greenyellow; overflow:hidden;">
+      <h1>3/Seoul</h1>
+      <img src="img seoul/nightlife.jpg" alt="">
+      <p>
+        <h1>History</h1>
+        Seoul is first recorded as Wiryeseong, the capital of Baekje (founded in 18 BC) in the northeastern area of modern Seoul. There are several city walls remaining in the area that date from this time. Pungnaptoseong, an earthen wall located southeast Seoul, is widely believed to have been at the main Wiryeseong site. As the Three Kingdoms competed for this strategic region, control passed from Baekje to Goguryeo in the 5th century, and from Goguryeo to Silla in the 6th century. <br><br>
+        Following the war, Seoul began to focus on reconstruction and modernization. As South Korea's economy started to grow rapidly from the 1960s, urbanization also accelerated and workers began to move to Seoul and other larger cities. <br><br>
+        Until 1972, Seoul was claimed by North Korea as its de jure capital, being specified as such in Article 103 of the 1948 North Korean constitution
+      </p>
+      <h1>Food</h1>
+      <table>
+        <tr>
+          <td><img src="img seoul/food.jpg" alt=""></td>
+          <td>Korean cuisine is the customary cooking traditions and practices of the culinary arts of Korea. Korean cuisine has evolved through centuries of social and political change. Originating from ancient agricultural and nomadic traditions in Korea and southern Manchuria, Korean cuisine has evolved through a complex interaction of the natural environment and different cultural trends.
+          Korean cuisine is largely based on rice, vegetables, and (at least in the South) meats. Kimchi is served at nearly every meal. Commonly used ingredients include sesame oil, doenjang (fermented bean paste), soy sauce, salt, garlic, ginger, gochugaru (pepper flakes), gochujang (fermented red chili paste) and napa cabbage. <br><br>
+          Ingredients and dishes vary by province. Many regional dishes have become national, and dishes that were once regional have proliferated in different variations across the country. Korean royal court cuisine once brought all of the unique regional specialties together for the royal family. Foods are regulated by Korean cultural etiquette.</td>
+        </tr>
+      </table>
+      <h1>Culture</h1>
+      <table>
+        <tr>
+          <td><img src="img seoul/culture.jpg" alt=""></td>
+          <td>
+           The most endearing thing about the culture of Seoul is the constant wish to maintain peace and harmony. This is evident from the acts of sharing food with one another, respecting elders, travelling in groups, etc. Seoul is the cultural hub of South Korea, with several art galleries and museums, along with Buddhist temples and monasteries as an epitome of architectural excellence. <br><br>
+           The Lunar New Year, which falls on the first day of spring and Thanksgiving in Autumn are the two main festivals celebrated by the people of Seoul. Time of harvest is celebrated with Chusok when the people pay respect to their ancestors by cooking traditional food and performing rituals. Making merry is an important part of the South Korean culture. Food is a common obsession among the people of Seoul. The inhabitants are extremely critical about the various versions of every dish, which explains the streets filled with joints serving the same, their own versions of it. Barbeque is a popular type of cooking in the city which has even made a mark on the outer radar.
+          </td>
+        </tr>
+      </table>
+      <h1>Population</h1>
+      <table>
+        <tr>
+          <td><img src="img seoul/population.png" alt=""></td>
+          <td>Seoul's 2020 population is now estimated at 9,963,452. In 1950, the population of Seoul was 1,021,031. Seoul has grown by 66,593 since 2015, which represents a 0.13% annual change. <br><br>
+            These population estimates and projections come from the latest revision of the UN World Urbanization Prospects. These estimates represent the Urban agglomeration of Seoul, which typically includes Seoul's population in addition to adjacent suburban areas</td>
+        </tr>
+      </table>
+      <h1>Seoul's attractions</h1>
+      <table >
+        <tr>
+          <td><img src="img seoul/attraction.jpg"></td>
+          <td><img src="img seoul/attraction1.jpg" alt=""></td>
+          <td><img src="img seoul/attraction2.jpg" alt=""></td>
+          <td><img src="img seoul/attraction3.jpg" alt=""></td>
+        </tr>
+      </table>
+    </div>
+    <div class="container" id="paris"style="background-color:blanchedalmond ;color: grey;">
+        <h1>4/Paris</h1>
+        <img src="img paris/effiel.jpg" alt="">
+             <h1>History</h1> 
+        <table>
+          <tr>
+            <td><img src="img paris/history.jpg" alt=""></td>
+            <td>In 2008, archaeologists of the Institut national de recherches archéologiques préventives (INRAP) (administered by France's Ministry of Higher Education and Research) digging at n° 62 Rue Henri-Farman in the 15th arrondissement, not far from the Left Bank of the Seine, discovered the oldest human remains and traces of a hunter-gatherer settlement in Paris, dating to about 8000 BC, during the Mesolithic period.Other more recent traces of temporary settlements had been found at Bercy in 1991, dating from around 4500–4200 BC.The excavations at Bercy found the fragments of three wooden canoes used by fishermen on the Seine, the oldest dating to 4800-4300 BC. They are now on display at the Carnavalet Museum. Excavations at the Rue Henri-Farman site found traces of settlements from the middle Neolithic period (4200-3500 BC); the early Bronze Age (3500-1500 BC); and the first Iron Age (800-500 BC). The archaeologists found ceramics, animal bone fragments, and pieces of polished axes. Hatchets made in eastern Europe were found at the Neolithic site in Bercy, showing that first Parisians were already trading with settlements in other parts of Europe.</td>
+          </tr>
+        </table>
+        <h1>Effiel tower</h1>
+        <table>
+          <tr>
+            <td>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower.More than 250 million people have visited the tower since it was completed in 1889. In 2015, there were 6.91 million visitors.The tower is the most-visited paid monument in the world. <br> <br>
+            An average of 25,000 people ascend the tower every day which can result in long queuesAs one of the most iconic landmarks in the world, the Eiffel Tower has been the inspiration for the creation of many replicas and similar towers. The mayor of Blackpool, Sir John Bickerstaffe, was so impressed on seeing the Eiffel Tower at the 1889 exposition that he commissioned a similar tower to be built in his town. It opened in 1894 and is 158.1 metres (518 ft) tall. Tokyo Tower in Japan, built as a communications tower in 1958, was also inspired by the Eiffel Tower</td>
+            <td><img src="img paris/effiel1.jpg" alt=""></td>
+          </tr>
+        </table>
+        <h1>Religion</h1>
+        <table>
+          <tr>
+            <td><img src="img paris/catholic church.jpg" alt=""></td>
+            <td>Catholicism is the majority religion in France, though small numbers—roughly 4.5% of Catholics—attend mass and overall, adherence to Catholicism is declining. Roman Catholicism was the state religion of France beginning with the conversion of King Clovis I until the French Revolution, when the Church’s relationship with the state was radically redefined. <br> <br>
+            Catholicism is the majority religion in France, though small numbers—roughly 4.5% of Catholics—attend mass and overall, adherence to Catholicism is declining. Roman Catholicism was the state religion of France beginning with the conversion of King Clovis I until the French Revolution, when the Church’s relationship with the state was radically redefined.The close connection between the French monarchy and the Catholic Church began during the reign of Charlemagne, who was the first to receive a papal coronation in the year 800. <br><br>
+            Through the coming centuries, the Church became the largest landowner in France and oversaw hospitals, primary, and secondary education. </td>
+          </tr>
+        </table>
+        <h1>Population</h1>
+        <table>
+          <tr>
+            <td>Paris's 2020 population is now estimated at 11,017,230. In 1950, the population of Paris was 6,283,018. Paris has grown by 283,728 since 2015, which represents a 0.52% annual change. These population estimates and projections come from the latest revision of the UN World Urbanization Prospects. These estimates represent the Urban agglomeration of Paris, which typically includes Paris's population in addition to adjacent suburban areas.Paris is a bustling city that is full of life and flavor. As the capital city of France, the city is home to numerous government buildings, but it is known for its quaint cobblestone paved streets and rich historical landmarks</td>
+            <td><img src="img paris/population.png" alt=""></td>
+          </tr>
+        </table>
+        <h1>Food</h1>
+        <table>
+          <tr>
+            <td><img src="img paris/food1.jpg" alt=""></td>
+            <td>The classics of Parisian cuisine are steak frites, magret de canard, saumon, foie gras, crème caramel and tarte tatin. You will find these on most restaurant menus along with other more regional dishes.When you get to Paris as long as you stay away from restaurants close to the tourist attractions you can find wonderful traditional French food because that is what French people expect to be offered on the menu. They also expect to spend a leisurely time enjoying the food and the company as they have all there lives.A typical breakfast in Paris is a croissant (buttery roll of flaky pastry) and/or a tartine (French bread sliced lengthwise, with butter and jam), café au lait (coffee with milk, also called café crème), and perhaps some fruit or juice.</td>
+          </tr>
+        </table>
+    </div>
+    <div class="container" id="venice"style="color:white ;background-color: teal;">
+      <h1 style="color: blue;">5/Venice</h1>
+      <img src="img venice/river.jpg" alt="">
+      <h1 style="color: blue;">History</h1>
+      <p>Uniquely among Italy’s chief cities, Venice came into being after the fall of the Roman Empire in the West. The Lombard hordes, whose incursions into northern Italy began in AD 568, drove great numbers of mainlanders onto the islands of the lagoon, previously the homes of itinerant fishermen and salt workers. The isolated communities, literally islands of Veneto-Byzantine civilization, became part of the exarchate of Ravenna when it was created in 584. When the mainland Byzantine city of Oderzo fell to the Lombards in 641, political authority was shifted to one of the islands in the Venetian lagoon.</p>
+      <h1 style="color: blue;">Food</h1>
+      <table>
+        <tr>
+          <td><img src="img venice/food1.jpg" alt=""></td>
+          <td>Venice is Italy, Italy is food: when in Venice, don't settle for poor quality food!
+          <br><br>
+          If you are looking for good food, you won't find it in fast foods. If you are looking for cheap places, you can find cheap authentic quality food all around the city (keep in mind that a whole pizza can be bought for 5/7€!).
+          <br><br>
+          Traditional venetian food is Bigoli (a typical Venetian fresh pasta, similar to Udon), fettuccine (hand-made noodles), ravioli and the similar tortelli (filled with meat, cheese, vegetables or pumpkin) and gnocchi (potatoes-made fresh pasta), are fresh and often hand-made pasta dishes (made of eggs and wheat flour), served together with meat sauce ...</td>
+        </tr>
+      </table>
+      <h1 style="color: blue;">Culture</h1>
+      <table>
+       <tr>
+         <td style="text-align: right;">
+          The culture of Venice, or Venezia as the locals call it, is characterized by the uniqueness of its people and the influence of its history. Venice’s reputation throughout the world tends to be based on the colorful decadence of its famed Carnival, though the city’s nickname, La Serenissima, meaning “The Most Serene Republic,” is also appropriate. 
+          <br><br>
+          The city’s bustling streets and passion for individuality is as notable as its noble history and quiet suburbs.Since Venice’s early days, it has been considered one of the most important cities of the Italian Peninsula. It’s origins as an important maritime republic solidified the city’s rich commerce and valuable connections in the Mediterranean Sea and Far East. The noblemen of Venice were highly committed to cultivating art, philosophy, poetry, and architecture, setting the bar for current day Venice’s deep appreciation for all things artistic. The stunning palaces and gorgeous waters of the lagoon set the stage in ancient Venice for countless parties and social gatherings, influencing the modern-day culture of social enjoyment and connection.
+           <br><br>
+          The two most iconic symbols of Venice – the gondola and the Carnival –perfectly represent the city’s culture.
+         </td>
+         <td>
+           <img src="img venice/culture.jpg" alt="">
+         </td>
+       </tr>
+      </table>
+      <h1 style="color: blue;">Popultation</h1>
+      <table>
+        <tr>
+          <td><img src="img venice/population.png" alt=""></td>
+          <td>17, 2019. Just 53,000 people live in the historic part of the city that tourists know as Venice, down by a third from a generation ago and dropping by about 1,000 people a year.
+          <br><br> 
+          The population of the lagoon islands — including glass-making Murano and the Lido beach destination — is just under 30,000, and dwindling too</td>
+        </tr>
+      </table>
+      <h1>Famous attraction</h1>
+      <table>
+        <tr>
+          <td><img src="img venice/attraction1.jpg" alt=""></td>
+          <td><img src="img venice/attraction2.jpg" alt=""></td>
+          <td><img src="img venice/attraction3.jpg" alt=""></td>
+          <td><img src="img venice/attraction4.jpg" alt=""></td>
+        </tr>
+      </table>
+    </div>
+    <footer class="navbar navbar-form">
+
+
+      <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+              <li><a class="a3" href="home.html">HOME</a></li>
+              <li><a class="a3" href="news.html">NEWS</a></li>
+              <li><a class="a3" href="covid2.html">COVID-19</a></li>
+              <li><a class="a3" href="sport.html">SPORT</a></li>
+              <li><a class="a3" href="tech.html">TECH</a></li>
+              <li><a class="a3" href="city2.html">CITY</a></li>
+
+          </div>
+          <div class="col-md-4 col-xs-4 col-sm-4">
+              <h3>Location</h3>
+
+              <i style="color: white;" class="fas fa-map-marker-alt"></i><a class="a2" href="location.html"> Lon Don</a><br>
+              <h3>Contact</h3>
+              <i style="color: lightcoral;" class="fas fa-envelope-square"></i><a class="a2" href="mailto:iphoneboy46@gmail.com"> Mail</a><br>
+              <i style="color: white;" class="fas fa-phone-square-alt"> 0927110910</i><br>
+
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+              <h3>Follow</h3>
+              <i style="color: blue;" class="fab fa-facebook"></i><a class="a2" href="https://www.facebook.com/"> Facebook</a><br>
+              <i style="color: lightblue;" class="fab fa-twitter"></i><a class="a2" href="https://twitter.com/explore"> Twitter</a><br><br>
+              <p style="color: white;"> @copyright DNBC NEWS 2020</p>
+
+          </div>
+
+      </div>
+
+  </footer>
+</body>
+</html>

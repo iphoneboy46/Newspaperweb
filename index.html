@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css
+" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .img1 {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .p1 {
+            border-style: outset;
+            border-color: black;
+            font-size: 14em;
+
+            color: black;
+            overflow: auto;
+
+        }
+
+        .p2 {
+            color: white;
+        }
+
+        .pnews {
+            font-size: 5em;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            padding: 1em;
+
+        }
+
+        hr {
+            border-width: 1em;
+            border-color: black;
+
+            margin-left: 22em;
+            margin-top: -5em;
+        }
+
+        .navbar a1,
+        li {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+            font-size: 1.5em !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+            margin-left: 1.5em;
+        }
+
+        .nav {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+
+        }
+
+        .a2 {
+            font-size: 1em;
+            color: white;
+
+        }
+
+        .a3 {
+            color: white;
+
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: black;
+        }
+
+
+
+
+        h3 {
+            color: white;
+            font-weight: bolder;
+        }
+
+        button {
+            background-color: white;
+
+        }
+
+
+
+        .imgh1 {
+            width: 1000px;
+            height: 500px;
+
+        }
+
+        .imgh2 {
+            width: 600px;
+            height: 250px;
+        }
+
+
+        h1 {
+            background-color: white;
+            opacity: 0.8;
+
+
+        }
+
+        .h2 {
+            font-weight: bolder;
+            background-color: white;
+            width: 30%;
+            opacity: 0.8;
+            color: red;
+            font-size: 1.1em;
+        }
+
+        h4 {
+            background-color: white;
+            opacity: 0.8;
+        }
+
+        a {
+            color: black;
+            font-weight: bolder;
+            text-decoration: none;
+
+        }
+
+        input {
+            margin-top: 1em;
+        }
+
+        marquee {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            font-weight: bolder;
+
+        }
+
+        .marquee1 {
+            background-color: grey;
+            color: white;
+            padding: 1em;
+        }
+
+        .cap {
+            margin-top: -8em;
+            margin-left: .5em;
+
+        }
+
+        .imgnew {
+            width: 230px;
+            height: 200px;
+            padding: .3em;
+
+
+        }
+
+        .anew {
+            font-size: 1em;
+            text-decoration: none;
+
+
+        }
+
+
+        .newh2 {
+            background-color: black;
+            color: white;
+            margin: left;
+            text-decoration: white;
+            text-align: center;
+            overflow: auto;
+            width: 100%;
+        }
+
+        .imgcity {
+            width: 300px;
+            height: 500px;
+
+
+        }
+
+        .anewcity {
+            font-size: 2em;
+            text-decoration: none;
+            text-align: center;
+
+        }
+
+        .h2city {
+            font-weight: bolder;
+            background-color: black;
+            width: 11em;
+            text-align: center;
+            color: white;
+        }
+
+        .anew1 {
+            font-size: 1em;
+            text-decoration: none;
+            overflow: visible;
+        }
+
+        .newh3 {
+            background-color: black;
+            color: white;
+            margin: left;
+            width: 14em;
+            padding: 0em 1em;
+            font-size: 1.7em;
+        }
+
+        .border {
+            border: black solid;
+            overflow: auto;
+            padding: 1em;
+            border-style: initial;
+            background-color: white;
+
+
+        }
+
+        .border:hover {
+            transform: translateY(1em);
+            transition: all ease-in-out 1s;
+            overflow: hidden;
+            opacity: 1;
+
+
+        }
+
+        .thu {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: -4em;
+        }
+
+        header {
+            margin-top: 4.5em;
+        }
+
+        .anews {
+
+            font-size: .8em;
+            overflow: visible;
+        }
+
+        .imgnew1 {
+            width: 130px;
+            float: left;
+            clear: both;
+            height: 90px;
+        }
+
+        .border1 {
+            border-style: inherit;
+            padding: 1em;
+            overflow: auto;
+            width: 340px;
+            padding: 1em;
+            background-color: white;
+
+        }
+
+        .imgcovid {
+            width: 1100px;
+            height: 400px;
+            padding: 1em;
+
+        }
+
+        .acovid {
+            font-size: 2em;
+            text-transform: uppercase;
+            color: black;
+            text-decoration: black;
+            text-decoration: none;
+
+        }
+
+        .imgcovid1 {
+            width: 100px;
+            height: 100px;
+            float: left;
+            clear: both;
+            padding-left: 1em;
+        }
+
+        .acovid1 {
+            font-size: 1em;
+            color: black;
+
+        }
+
+        .imgcovid2 {
+            width: 100px;
+            height: 100px;
+            float: right;
+            clear: both;
+        }
+
+        .border2 {
+            background-color: white;
+            border-style: inherit;
+            padding: 1em;
+        }
+
+        .imgsport {
+            width: 700px;
+            height: 300px;
+        }
+
+        .asport {
+            font-size: 2em;
+            color: white;
+        }
+
+        .imgsport2 {
+            width: 300px;
+            height: 200px;
+        }
+
+        .imgtech {
+            width: 430px;
+            height: 300px;
+
+        }
+
+        .bordersport1 {
+            background-color: white;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <p class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+
+
+
+            <hr class="col-md-9 col-sm-9 col-xs-9">
+        </div>
+
+        <div class="col-md-12 col-xs-12 col-sm-12">
+            <marquee>- - - - DNBC is an online newspaper website that always updates the worldwide information on sports
+                and
+                sports ... always gives readers the fastest and most accurate information regardless of the location.
+                Visit
+                DNBC NEWS website
+                - - - - </marquee>
+        </div>
+
+
+    </header>
+
+
+    <div class="row">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+            <nav class="nav navbar-default navbar-fixed-top" class="col-md-10 col-sm-10 col-xs-10">
+                <ul class="nav navbar-nav navbar-form">
+                    <li><a style="color: white;" href="home.html">HOME</a></li>
+                    <li><a style="color: white;" href="news.html">NEWS</a></li>
+                    <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
+                    <li><a style="color: white;" href="sport.html">SPORT</a></li>
+                    <li><a style="color: white;" href="tech.html">TECH</a></li>
+                    <li><a style="color: white;" href="city2.html">CITY</a></li>
+                    <li><a style="color: white;" href="feeback.html">FEELBACK</a></li>
+
+                </ul>
+                <div class="col-md-2 col-sm-2 col-xs-2 "><input type="search" placeholder="Search"><button><span
+                            class="glyphicon glyphicon-search"></span></button></div>
+            </nav>
+
+        </div>
+    </div>
+
+    <div style="background-color: lightgray; ">
+
+        <p class="pnews">HOME</p>
+        <p class="thu">FIRDAY - JULY 17 - 2020 </p>
+
+        <br><br><br>
+
+
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+
+                <div class="col-md-7 col-xs-7 col-sm7">
+                    <div>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                            </ol>
+
+
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="imgh1"> <img class="imgh1" src="home/h1.jpg" alt="logo"></div>
+                                    <div class="carousel-caption">
+                                        <h2><a class="h2" href="covid2.html">COVID-19</a></h2>
+                                        <h1><a href="covid2/covid.html" style="text-decoration: none;"> VIRUS SPREAD How
+                                                many coronavirus deaths
+                                                and cases have there been in
+                                                the UK?</a><br>
+                                            <i style="font-size: .5em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                                style="color: black; font-size: .5em;" class="fas fa-comment"> 0 </i>
+                                        </h1>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="imgh1"><img class="imgh1" src="home/city.jpg" alt="logo"></div>
+                                    <div class="carousel-caption">
+                                        <h2><a class="h2" href="city2.html">CITY</a> </h2>
+                                        <h1><a href="city2.html" style="text-decoration: none;">Top 5 largest cities in
+                                                the
+                                                world </a><br>
+                                            <i style="font-size: .5em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                                style="color: black; font-size: .5em;" class="fas fa-comment"> 0 </i>
+                                        </h1>
+                                        </h1>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="imgh1"><img class="imgh1" src="home/h35.jpg" alt="logo"></div>
+                                    <div class="carousel-caption">
+                                        <h2><a class="h2" href="sport.html">SPORT</a></h2>
+                                        <h1><a href="football/football4.html" style="text-decoration: none;"> KEEP YOUR
+                                                KOUL Man Utd transfer blow as Liverpool ‘make £54m bid for Kalidou
+                                                Koulibaly’ and Chelsea join race for Napoli defender</a><br>
+                                            <i style="font-size: .5em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                                style="color: black; font-size: .5em;" class="fas fa-comment"> 0 </i>
+                                        </h1>
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <br><br>
+                </div>
+                <div class="col-md-5 col-xs-5 col-sm-5">
+                    <div class="imgh2"><img class="imgh2" src="home/h4.jpg">
+                        <div class="cap">
+                            <h2><a class="h2" href="sport.html">SPORT</a> </h2>
+                            <h4><a style="font-size: 1em;" href="football/football9.html"
+                                    style="text-decoration: none;"> CHEW THE FAT Wonderkid Ansu Fati, 17, scores
+                                    again
+                                    and Lionel Messi converts penalty
+                                    as Barcelona increase lead at the top</a><br>
+                                <i style="font-size: .5em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .5em;" class="fas fa-comment"> 0 </i> </h1>
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div class="imgh2"><img class="imgh2" src="tech/tech1.jpg">
+                        <div class="cap">
+                            <h2><a class="h2" href="tech.html">TECH</a> </h2>
+                            <h4><a style="font-size: 1em;" href="tech/tech1.html" style="text-decoration: none;">MOBILE
+                                    MAKEOVER Facebook app will turn completely
+                                    BLACK as new Dark Mode introduced on your iPhone and Android</a><br>
+                                <i style="font-size: .5em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .5em;" class="fas fa-comment"> 0 </i> </h1>
+                            </h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <div class="row">
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <h2 class="newh2"><a class="newh2" href="news.html">NEWS</a> </h2>
+                            <div style="background-color: white; padding: 1em;"><img class="imgcovid"
+                                    src="home/img23.jpg"><br>
+                                <a class="acovid" href="new/new7.html" style="text-decoration: none; ">
+                                    FATHEIR'S DAY Prince William beams as he plays with George, Charlotte and Louis in
+                                    joyous snaps celebrating Father’s Day</a>
+                                <br>
+                                <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i> </h1>
+                            </div>
+                            <br>
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+
+                                <div class="border">
+
+                                    <div><img class="imgnew" src="home/h15.jpg"><a class="anew" href="new/new1.html"
+                                            style="text-decoration: none;">
+                                            House collapses as lightning storms and rain spark flooding chaos
+                                            overnight</a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i> </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <div class="border">
+                                    <div><img class="imgnew" src="home/h16.jpg">
+                                        <a class="anew" href="covid2/covid3.html" style="text-decoration: none;"> UK
+                                            coronavirus official death toll jumps by 233 as grim total nears 42,000
+                                        </a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-xs-3 col-sm-3">
+                                <div class="border">
+                                    <div><img class="imgnew" src="home/h17.jpg"><a class="anew" href="new/new2.html"
+                                            style="text-decoration: none;">North
+                                            Korean army 'to move towards border for training near demilitarised
+                                            zone'</a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="border">
+                                    <div><img class="imgnew" src="home/h18.jpg"><a class="anew" href="new/new3.html"
+                                            style="text-decoration: none;">HIGH ALERT Reading stabbings – Boris Johnson
+                                            says
+                                            thoughts with victims of ‘appalling’ incident</a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3 col-xs-3 col-sm-3">
+                            <h2 class="newh3">TOP NEWS IS READ A LOT</h2>
+                            <div class="border1">
+                                <div><img class="imgnew1" src="home/h8.jpg"><a class="anews" href="covid2/covid6.html"
+                                        style="text-decoration: none;">
+                                        1.HIGH HOPES London records fewer
+                                        deaths than a normal week making it first region to emerge from Covid crisis</a>
+                                </div>
+                                <br>
+                                <div><img class="imgnew1" src="home/h15.jpg"><a class="anews" href="new/new1.html"
+                                        style="text-decoration: none;">
+                                        2.House collapses as lightning storms and rain spark flooding chaos
+                                        overnight</a>
+                                </div>
+                                <br><br>
+                                <div><img class="imgnew1" src="home/h16.jpg"><a class="anews" href="covid2/covid3.html"
+                                        style="text-decoration: none;">
+                                        3.UK coronavirus official death toll jumps by 233 as grim total nears 42,000</a>
+                                </div>
+                                <br><br>
+                                <div><img class="imgnew1" src="home/h6.jpg"><a class="anews" href="covid2/covid4.html"
+                                        style="text-decoration: none;">
+                                        4.CORONA CHAOS 12 million lowest
+                                        income individuals may not get stimulus checks because they don’t earn enough to
+                                        be
+                                        on tax
+                                        system</a></div>
+                                <br><br>
+                                <div><img class="imgnew1" src="home/h7.jpg"><a class="anews" href="covid2/covid5.html"
+                                        style="text-decoration: none;">
+                                        5.JOBLESS MAP OF BRITAIN The areas
+                                        worst and least affected by unemployment in lockdown revealed – so where does
+                                        your
+                                        town
+                                        rank?
+                                    </a></div>
+                                <br><br>
+                                <div><img class="imgnew1" src="home/h3.jpg"><a class="anews" href=""
+                                        style="text-decoration: none;">
+                                        6.EMPTY CELEBRATIONS Bayern Munich win EIGHTH consecutive Bundesliga title
+                                        as Robert Lewandowski scores 46th goal of the season</a></div>
+                                <br>
+
+                                <div><img class="imgnew1" src="home/h34.jpg"><a class="anews"
+                                        href="football/football3.html" style="text-decoration: none;">
+                                        7.
+                                        WAITING GAME MAN UTD ‘WILLING TO WAIT’ FOR JADON SANCHO’S £100M TRANSFER FEE TO
+                                        BE LOWERED BY DORTMUND AS REAL MADRID JOIN RACE</a></div>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-9 col-xs-9">
+                            <h2 class="newh2"><a class="newh2" href="covid2.html">COVID</a> </h2>
+                            <div class="border2">
+
+                                <div><img class="imgcovid" src="home/h6.jpg">
+                                    <br>
+                                    <a class="acovid" href="covid2/covid4.html" style="text-decoration: none; ">
+                                        CORONA CHAOS 12 million lowest
+                                        income individuals may not get stimulus checks because they don’t earn enough to
+                                        be on tax
+                                        system</a><br>
+                                    <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                                </div>
+
+                                <br><br>
+
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-xs-6">
+                                        <img class="imgcovid1" src="home/h7.jpg">
+                                        <a class="acovid1" href="covid2/covid5.html" style="text-decoration: none;">
+                                            JOBLESS MAP OF BRITAIN The areas
+                                            worst and least affected by unemployment in lockdown revealed – so where
+                                            does your town
+                                            rank?
+                                        </a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6 col-xs-6">
+                                        <img class="imgcovid1" src="home/h8.jpg">
+                                        <a class="acovid1" href="covid2/covid6.html" style="text-decoration: none;">
+                                            HIGH
+                                            HOPES London records fewer
+                                            deaths than a normal week making it first region to emerge from Covid crisis
+                                        </a><br>
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-3 col-md-3">
+                                <h2 class="h2city"><a style="color: white;" href="city2.html">CITY</a></h2>
+                                <div class="border1">
+
+                                    <img class="imgcity" src="home/city.jpg"><br>
+                                    <a class="anewcity" href="city2.html">Top 5 largest cities in the
+                                        world </a><br>
+                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h2 class="newh2"><a class="newh2" href="sport.html">SPORT</a></h2>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="bordersport1">
+                            <div class="col-sm-6 col-md-6 col-xs-6">
+                                <div style="background-color: white;"><img class="imgsport" src="home/h34.jpg"><br>
+                                    <a class="acovid" href="football/football3.html" style="text-decoration: none; ">
+
+                                        WAITING GAME Man Utd ‘willing to wait’ for Jadon Sancho’s £100m transfer fee to
+                                        be
+                                        lowered by Dortmund as Real Madrid join race</a><br>
+                                    <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i></div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-xs-6">
+                                <div style="background-color: white;"><img class="imgsport" src="home/h32.jpg"><br>
+                                    <a class="acovid" href="tennis/tennis1.html" style="text-decoration: none; ">
+
+
+                                        Novak Djokovic tests positive for coronavirus as world No 1 admits he's
+                                        'extremely
+                                        sorry'</a><br>
+                                    <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+                        <div class="border">
+                            <div><img class="imgsport2" src="home/h13.jpg">
+                                <a class="anew" href="boxing/boxing3.html" style="text-decoration: none;">P4P
+                                    LIST Tyson Fury is second best boxer on planet according to stats but Anthony Joshua
+                                    and
+                                    Lomachenko just scrape into top 10 </a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-xs-3 col-sm-3">
+                        <div class="border">
+                            <div><img class="imgsport2" src="home/h14.jpg"><a class="anew"
+                                    href="football/footlball5.html" style="text-decoration: none;"><br>TOP TIPS Man City
+                                    vs Arsenal betting tips: Back City to net two or more in easy win as Premier League
+                                    returns TONIGHT</a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-xs-3 col-sm-3">
+                        <div class="border">
+                            <div><img class="imgsport2" src="home/h33.jpg"><a class="anew"
+                                    href="football/football6.html" style="text-decoration: none;">MAU-PAY BACK Arsenal’s
+                                    arrogance is so legendary one
+                                    ex-player was told ‘leave your attitude at the door’ when joining new club</a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-xs-3 col-sm-3">
+                        <div class="border">
+                            <div><img class="imgsport2" src="home/h43.jpg"><a class="anew" href="golf/golf3.html"
+                                    style="text-decoration: none;">
+                                    RORY MIC-ILROY Golfers to wear microphones to ‘add energy and excitement’ to
+                                    behind-closed-doors events during UK Swing of tournaments</a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+                    <h2 class="newh2"><a class="newh2" href="tech.html">TECH</a> </h2>
+
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="border">
+                            <div><img class="imgtech" src="tech/tech2.jpg"><br>
+                                <a class="anew" href="tech/tech2.html" style="text-decoration: none;">
+                                    TAP TIPS How to activate ‘Hidden Mode’ on WhatsApp so you don’t appear online or
+                                    ‘typing’</a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="border">
+                            <div><img class="imgtech" src="tech/tech8.jpg"><br>
+                                <a class="anew" href="tech/tech8.html" style="text-decoration: none;">
+                                    BOXING CLEVER Microsoft ‘to unveil a SECOND new Xbox in August’ – even cheaper than
+                                    the Xbox Series X</a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <div class="border">
+                            <div><img class="imgtech" src="tech/tech5.jpg"><br>
+                                <a class="anew" href="tech/tech5.html" style="text-decoration: none;">
+                                    LISTEN UP Your iPhone will now tell you if Facebook or any other app is SPYING on
+                                    your
+                                    microphone </a><br>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <br>
+            <footer class="nav navbar-form">
+
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <li><a class="a3" href="home.html">HOME</a></li>
+                        <li><a class="a3" href="news.html">NEWS</a></li>
+                        <li><a class="a3" href="covid2.html">COVID-19</a></li>
+                        <li><a class="a3" href="sport.html">SPORT</a></li>
+                        <li><a class="a3" href="tech.html">TECH</a></li>
+                        <li><a class="a3" href="city2.html">CITY</a></li>
+
+                    </div>
+                    <div class="col-md-4 col-xs-4 col-sm-4">
+                        <h3>Location</h3>
+
+                        <i style="color: white;" class="fas fa-map-marker-alt"></i><a class="a2" href="location.html">
+                            Lon Don</a><br>
+                        <h3>Contact</h3>
+                        <i style="color: lightcoral;" class="fas fa-envelope-square"></i><a class="a2"
+                            href="mailto:iphoneboy46@gmail.com"> Mail</a><br>
+                        <i style="color: white;" class="fas fa-phone-square-alt"> 0927110910</i><br>
+
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                        <h3>Follow</h3>
+                        <i style="color: blue;" class="fab fa-facebook"></i><a class="a2"
+                            href="https://www.facebook.com/"> Facebook</a><br>
+                        <i style="color: lightblue;" class="fab fa-twitter"></i><a class="a2"
+                            href="https://twitter.com/explore"> Twitter</a><br><br>
+                        <p style="color: white;"> @copyright DNBC NEWS 2020</p>
+
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+
+</body>
+
+</html>

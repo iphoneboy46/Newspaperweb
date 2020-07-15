@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css
+" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .img1 {
+            width: 300px;
+            height: 300px;
+
+        }
+
+        .p1 {
+            border-style: outset;
+            border-color: black;
+            font-size: 14em;
+
+            color: black;
+            overflow: auto;
+
+        }
+
+        .p2 {
+            color: white;
+        }
+
+        hr {
+            border-width: 1em;
+            border-color: black;
+            width: 83.5em;
+            margin-left: 22em;
+            margin-top: -3em;
+        }
+
+        button {
+            width: 2em;
+            height: 1.9em
+        }
+
+        input {
+            margin-top: 1em;
+        }
+
+        .a1 {
+            margin-left: 2em;
+            color: white;
+            font-weight: 900;
+            font-size: 2em;
+
+        }
+
+        .a2 {
+            font-size: 1em;
+            color: white;
+
+        }
+
+        .a3 {
+            color: white;
+
+            font-size: 1em;
+        }
+
+        footer {
+            background-color: black;
+        }
+
+        nav {
+            background-color: black;
+        }
+
+        h3 {
+            color: white;
+            font-weight: bolder;
+        }
+
+        button {
+            background-color: white;
+
+        }
+
+        body {
+            border-style: initial;
+            border-color: black;
+        }
+
+        .imgh1 {
+            width: 1200px;
+            height: 400px;
+
+        }
+
+        .imgh2 {
+            width: 600px;
+            height: 250px;
+        }
+
+
+        h1 {
+            background-color: white;
+            opacity: 0.8;
+            margin: auto;
+            text-align: center;
+            font-size: 3em;
+            font-weight: bolder;
+            padding: 1em 0em;
+        }
+
+        .h10new {
+            background-color: white;
+            text-align: center;
+            font-size: 2.5em;
+            width: 10em;
+            padding: 0.2em;
+        }
+
+        h2 {
+            font-weight: bolder;
+            background-color: white;
+            width: 30%;
+            opacity: 0.8;
+            color: red;
+        }
+
+        h4 {
+            background-color: white;
+            opacity: 0.8;
+            font-size: 1.5em;
+        }
+
+        a {
+            color: black;
+            font-weight: bolder;
+
+
+        }
+
+        marquee {
+            background-color: black;
+            color: white;
+            font-size: 1em;
+            font-weight: bolder;
+
+        }
+
+        .marquee1 {
+            background-color: grey;
+            color: white;
+            padding: 1em;
+        }
+
+
+        .cap {
+            margin-top: -8em;
+            margin-left: .5em;
+
+        }
+
+        .imgnew {
+            width: 100px;
+            float: left;
+            clear: both
+        }
+
+        .anew {
+            font-size: 1.5em;
+
+
+
+
+        }
+
+        .newh2 {
+            background-color: black;
+            color: white;
+            margin: left;
+            text-decoration: white;
+            text-align: center;
+            overflow: auto;
+            width: 100%;
+        }
+
+        .imgnew2 {
+            width: 500px;
+            height: 300px;
+
+        }
+
+        .img23 {
+            overflow: auto;
+            width: 1070px;
+            height: 400px;
+            padding: 1em 0em;
+
+        }
+
+        .a23 {
+            margin: auto;
+            font-size: 2em;
+        }
+
+        .anew1 {
+            font-size: 1.1em;
+            text-decoration: none;
+        }
+
+        .newh3 {
+            background-color: red;
+            color: white;
+            margin: left;
+            width: 14em;
+            padding: 0em 1em;
+        }
+
+        .pnews {
+            font-size: 5em;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            font-weight: bolder;
+            padding: 1em;
+            ;
+        }
+
+        .border {
+            border: black solid;
+            overflow: auto;
+            padding: 1em;
+
+        }
+
+        .thu {
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: -4em;
+        }
+
+        .navbar a1,
+        li {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+            font-size: 1.5em !important;
+            letter-spacing: 4px;
+            opacity: 0.9;
+            margin-left: 1.5em;
+        }
+
+        .nav {
+            margin-bottom: 0;
+            background-color: black;
+            border: 0;
+
+        }
+
+        header {
+            padding-top: 5em;
+        }
+
+
+        .bordersport1 {
+            background-color: white;
+            overflow: auto;
+        }
+
+        .imgsport {
+            width: 700px;
+            height: 300px;
+        }
+
+        .asport {
+            font-size: 2em;
+            color: white;
+        }
+
+        .imgsport2 {
+            width: 300px;
+            height: 200px;
+        }
+
+        .border1 {
+            border-style: inherit;
+            padding: 1em;
+            overflow: auto;
+            width: 340px;
+            padding: 1em;
+            background-color: white;
+
+        }
+
+        .border {
+            border: black solid;
+            overflow: auto;
+            padding: 1em;
+            border-style: initial;
+            background-color: white;
+
+
+        }
+
+        .imgnew5 {
+            width: 300px;
+            height: 200px;
+        }
+
+        .imgnew {
+            width: 1100px;
+            height: 400px;
+            padding: 1em;
+
+        }
+
+        .anew {
+            font-size: 2em;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <p class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+        </div>
+
+
+        <hr>
+
+        <marquee>- - - - DNBC is an online newspaper website that always updates the worldwide information on sports and
+            sports ... always gives readers the fastest and most accurate information regardless of the location. Visit
+            DNBC NEWS website
+            - - - - </marquee>
+    </header>
+    <div class="row">
+        <nav class="nav navbar-default navbar-fixed-top" class="col-md-10 col-sm-10 col-xs-10">
+            <ul class="nav navbar-nav navbar-form">
+                <li><a style="color: white;" href="home.html">HOME</a></li>
+                <li><a style="color: white;" href="news.html">NEWS</a></li>
+                <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
+                <li><a style="color: white;" href="sport.html">SPORT</a></li>
+                <li><a style="color: white;" href="tech.html">TECH</a></li>
+                <li><a style="color: white;" href="city2.html">CITY</a></li>
+                <li><a style="color: white;" href="feeback.html">FEELBACK</a></li>
+
+            </ul>
+            <div class="col-md-2 col-sm-2 col-xs-2"><input type="search" placeholder="Search"><button><span
+                        class="glyphicon glyphicon-search"></span></button></div>
+        </nav>
+    </div>
+    <div style="background-color: lightgray;">
+        <div class="container">
+            <div>
+                <p class="pnews">TECH</p>
+                <p class="thu">FIRDAY - JULY 17 - 2020 </p>
+            </div>
+            <br><br><br>
+            <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12">
+
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="imgh1"> <img class="imgh1" src="tech/tech1.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>TECH</h2>
+                                    <h4><a href="tech/tech1.html" style="text-decoration: none;"> MOBILE MAKEOVER
+                                            Facebook app will turn completely BLACK as new Dark Mode introduced on your
+                                            iPhone and Android</a><br>
+                                        <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i> </h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="imgh1"><img class="imgh1" src="tech/tech2.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>TECH</h2>
+                                    <h4><a href="tech/tech2.html" style="text-decoration: none;"> TAP TIPS How to
+                                            activate ‘Hidden Mode’ on WhatsApp so you don’t appear online or ‘typing’
+                                        </a><br>
+                                        <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="imgh1"><img class="imgh1" src="tech/tech3.jpg" alt="logo"></div>
+                                <div class="carousel-caption">
+                                    <h2>TECH</h2>
+                                    <h4><a href="tech/tech3.html" style="text-decoration: none;">WINDO-H NO!
+                                            Bizarre Windows 10 bug spams users with fake security warnings – how to fix
+                                            it in seconds
+                                        </a><br><i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i>
+                                        <i style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i> </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <h2 class="newh2"><a class="newh2" href="tech.html">TECH</a> </h2>
+
+                    <div class="bordersport1">
+
+                        <div style="background-color: white;">
+                            <div>
+                                <div><img class="imgnew" src="tech/tech4.jpg"><br>
+                                    <a class="anew" href="tech/tech4.html">
+                                        PHONE ALONE iPhone 12 might be first EVER to have no charger or headphones in
+                                        the box – to ‘make it cheaper’</a></div>
+                            </div>
+
+                            <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                        </div>
+                    </div>
+
+
+                    <br>
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <div class="border">
+
+                                <div><img class="imgnew5" src="tech/tech5.jpg"><br>
+                                    <a class="anew1" href="tech/tech5.html">LISTEN UP Your iPhone will now tell
+                                        you if Facebook or any other app is SPYING on your microphone</a></div>
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-xs-4 col-sm-4">
+                            <div class="border">
+                                <div><img class="imgnew5" src="tech/tech6.jpg"><a class="anew1"
+                                        href="tech/tech6.html">FACE OFF Delete these 25 Android apps and change
+                                        your Facebook password NOW – you may have been hacked</a></div>
+                                
+                                <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="col-md-4 col-xs-4 col-sm-4">
+                            <div class="border">
+                                <div><img class="imgnew5" src="tech/tech7.jpg"><a class="anew1"
+                                        href="tech/tech7.html">LOCK-SCREEN Lock your Gmail down – three Google settings
+                                        you
+                                        need to activate NOW to stop hackers</a><br>
+                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i></div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-12" style="padding: 1em;" class="container">
+                    <div class="border">
+                        <img class="img23" src="tech/tech8.jpg">
+
+
+                        <a href="tech/tech8.html" class="a23">BOXING CLEVER Microsoft ‘to unveil a SECOND new Xbox in
+                            August’ – even cheaper than the Xbox Series X</a><br>
+                        <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                            style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border">
+                        <div><img class="imgnew2" src="tech/tech9(1).jpg"></div><br>
+                        <div><a class="anew1" href="tech/tech9.html">FACE OFF How to find everyone who has ignored your
+                                Facebook friend requests
+                            </a><br>
+                            <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i></div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border">
+                        <div><img class="imgnew2" src="tech/tech10.jpg"></div><br>
+                        <div><a href=""><a class="anew1" href="tech/tech10.html">PEN PALS Simple WhatsApp trick reveals
+                                    who you text the
+                                    most on the app</a><br>
+                                <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                    style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="nav navbar-form">
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <li><a class="a3" href="home.html">HOME</a></li>
+                    <li><a class="a3" href="news.html">NEWS</a></li>
+                    <li><a class="a3" href="covid2.html">COVID-19</a></li>
+                    <li><a class="a3" href="sport.html">SPORT</a></li>
+                    <li><a class="a3" href="tech.html">TECH</a></li>
+                    <li><a class="a3" href="city2.html">CITY</a></li>
+
+                </div>
+                <div class="col-md-4">
+                    <h3>Location</h3>
+
+                    <i style="color: white;" class="fas fa-map-marker-alt"></i><a class="a2" href="location.html"> Lon
+                        Don</a><br>
+                    <h3>Contact</h3>
+                    <i style="color: lightcoral;" class="fas fa-envelope-square"></i><a class="a2"
+                        href="mailto:iphoneboy46@gmail.com"> Mail</a><br>
+                <i style=" color: white;" class="fas fa-phone-square-alt"> 0927110910</i><br>
+
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow</h3>
+                    <i style="color: blue;" class="fab fa-facebook"></i><a class="a2" href="https://www.facebook.com/">
+                        Facebook</a><br>
+                    <i style="color: lightblue;" class="fab fa-twitter"></i><a class="a2"
+                        href="https://twitter.com/explore"> Twitter</a><br><br>
+                    <p style="color: white;"> @copyright DNBC NEWS 2020</p>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
