@@ -16,7 +16,7 @@ Project title: Newspaper Website
              Tran Viet Khoa(vietkhoaktk@gmail.com) Student 1248882
 ============================
 
-eProject published at 
+eProject published at https://iphoneboy46.github.io/Newspaperweb/.
 
 ============================
 
