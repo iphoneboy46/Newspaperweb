@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>CIty</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css
 " integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
@@ -18,6 +18,8 @@
       font-size: 11px !important;
       letter-spacing: 4px;
       opacity: 0.9;
+     
+    
     }
 
     /* Add a gray color to all navbar links */
@@ -28,7 +30,7 @@
 
     /* On hover, the links will turn white */
     .navbar-nav li a:hover {
-      color: #fff !important;
+      color:black !important;
     }
 
     /* The active link */
@@ -87,7 +89,7 @@
     .p1 {
       border-style: outset;
       border-color: black;
-      font-size: 14em;
+      font-size: 10em;
 
       color: black;
       overflow: auto;
@@ -108,27 +110,14 @@
       ;
     }
 
-    hr {
-      border-width: 1em;
-      border-color: black;
-      width: 80em;
-      margin-left: 22em;
-      margin-top: -3em;
-    }
-
     button {
       width: 2em;
       height: 1.9em
     }
 
-    input {
-      margin-top: 1em;
-      width: 10em;
-      margin-left: 2em;
-    }
 
     .a1 {
-      margin-left: 2em;
+      margin-left: 1em;
       color: white;
       font-weight: 900;
       font-size: 2em;
@@ -160,10 +149,8 @@
       font-weight: bolder;
     }
 
-    button {
-      background-color: white;
 
-    }
+  
 
     body {
       border-style: initial;
@@ -314,18 +301,26 @@
     .paper4{
       column-count: 4; padding: 2em;
     }
+    header{
+      padding-top: 5em;
+    }
+    table{
+      overflow: hidden;
+    }
   </style>
 </head>
 
 <body>
+  <div style="background-color: lightgray;">
+<div class="container" style="overflow: hidden;">
   <header>
-    <div class="col-md-12 col-sm-12 col-xs-12"></div>
-    <p class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+   
+    <p style="background-color: white;" class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
 
 
 
-    <hr>
-    </div>
+   
+   
 
     <div>
       <marquee>- - - - DNBC is an online newspaper website that always updates the worldwide information on sports and
@@ -336,6 +331,7 @@
 
 
   </header>
+
   <nav class="navbar navbar-form" class="col-md-12 col-sm-12 col-xs-12">
     <ul class="nav navbar-nav">
       <li><a class="a1" href="home.html">HOME</a></li>
@@ -344,18 +340,18 @@
       <li><a class="a1" href="sport.html">SPORT</a></li>
       <li><a class="a1" href="tech.html">LIFE</a></li>
       <li><a class="a1" href="city.html">CITY</a></li>
-      <li><a class="a1" href="feeback.html">FEELBACK</a></li>
-      <a class="a1" href=""></a><input type="search" placeholder="Search"><button><span
-          class="glyphicon glyphicon-search"></span></button>
+      <li><a class="a1" href="feeback.html">FEEDBACK</a></li>
+     
     </ul>
 
   </nav>
-  <div style="background-color: lightgray;">
-    <div>
+  
+   
       <p class="pnews">CITY</p>
       <p class="thu">FIRDAY - JULY 17 - 2020 </p>
-    </div>
+    
     <br><br><br>
+    
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -375,7 +371,7 @@
             <li><a href="#paris">PARIS</a></li>
           </ul>
         </div>
-      </div>
+     
     </nav>
     <div class="jumbotron text-center">
       <h1 style="color:black;">TOP 5 CITIES IN THE WORLD</h1>
@@ -387,7 +383,10 @@
         cities.
       </p>
     </div>
+
+    <div style="overflow: hidden;">
     <table>
+
       <tr>
         <td>
           <img src="img newyork/city.jpg" alt="">
@@ -423,6 +422,8 @@
         </td>
       </tr>
     </table>
+    </div>
+    
     <div id="tokyo" class="container" style="color: white; background-color: black;">
       <h1 style="color: red;">1/Tokyo</h1>
       <img src="img tokyo/tokyotower.jpg" alt="" class="imgkhoa">
@@ -816,17 +817,18 @@
       </table>
       <h1 style="color: blue;">Famous attraction</h1>
       <table>
-        <tr>
+        <tr >
           <td><img src="img venice/attraction1.jpg" alt=""></td>
           <td><img src="img venice/attraction2.jpg" alt=""></td>
           <td><img src="img venice/attraction3.jpg" alt=""></td>
           <td><img src="img venice/attraction4.jpg" alt=""></td>
         </tr>
       </table>
+ 
     </div>
+</div>
+
     <footer class="navbar navbar-form">
-
-
       <div class="row">
         <div class="col-md-4 col-sm-4 col-xs-4">
           <li><a class="a3" href="home.html">HOME</a></li>
@@ -855,11 +857,13 @@
             Twitter</a><br><br>
           <p style="color: white;"> @copyright DNBC NEWS 2020</p>
 
-        </div>
+      
 
       </div>
 
     </footer>
-</body>
+  
+
+
 
 </html>
