@@ -14,12 +14,16 @@ Project title: Newspaper Website
 
              Nguyen Truong Vu(iphoneboy46@gamil.com) Student 1248887
              Tran Viet Khoa(vietkhoaktk@gmail.com) Student 1248882
+             
 ============================
+
 github report link: https://github.com/iphoneboy46/Newspaperweb/tree/master/document
 
 ============================
+
 eProject published at https://iphoneboy46.github.io/Newspaperweb/.
 
 ============================
+
 
 Thank you for spending your time to look at our work.
