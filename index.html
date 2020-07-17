@@ -47,26 +47,9 @@
         }
 
 
-        .navbar a1,
-        li {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
-            font-size: 1.5em !important;
-            letter-spacing: 3px;
-            opacity: 0.9;
-            margin-left: 4em;
-
-        }
-
-        .nav {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
-
-            margin: auto;
-
-        }
+    nav{
+        background-color: black;
+    }
 
         .a2 {
             font-size: 1em;
@@ -77,7 +60,7 @@
         .a3 {
             color: white;
 
-            font-size: 1em;
+            font-size: 1.5em;
         }
 
         footer {
@@ -234,9 +217,7 @@
         .border:hover {
             transform: translateY(1em);
             transition: all ease-in-out 1s;
-           
-            
-
+   
 
         }
 
@@ -244,10 +225,6 @@
             text-align: center;
             font-size: 1.5em;
             margin-top: -4em;
-        }
-
-        header {
-            margin-top: 4.5em;
         }
 
         .anews {
@@ -341,6 +318,25 @@
             background-color: white;
             overflow: auto;
         }
+       .nav a{
+            font-size: 2em;
+            margin-left: 1em;
+           
+        }
+        .navbar-nav li a:hover {
+      color:black !important;
+    }
+
+    .navbar1 {
+
+background-color: gray;
+letter-spacing: 5px;
+height: 8em;
+opacity: 0.8;
+width: 6em;
+margin-left: auto;
+
+}
     </style>
 </head>
 
@@ -350,7 +346,7 @@
         <div style="background-color: lightgray;">
         <header>
             
-                <p class="p1" style="background-color: white;"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS
+                <p id="p1" class="p1" style="background-color: white;"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS
                 </p>
 
 
@@ -373,10 +369,10 @@
         </header>
     </div>
 
-    <div class="container">
-        <div class="col-xs-12 col-md-12 col-sm-12">
-            <nav class="nav navbar-default navbar-fixed-top">
-                <ul class="nav navbar-nav navbar-form">
+   
+        
+            <nav class="navbar navbar-form">
+                <ul class="nav navbar-nav">
                     <li><a style="color: white;" href="home.html">HOME</a></li>
                     <li><a style="color: white;" href="news.html">NEWS</a></li>
                     <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
@@ -389,9 +385,26 @@
 
             </nav>
 
+      
+    </div>
+    <nav class="navbar1 navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <i
+                            style="font-size: 4em; color: white; margin-left: .8em;"class="fas fa-long-arrow-alt-up"></i><br>
+                    <a style="color: white; text-decoration: white; margin-right: .5em;" href="#p1">Top</a>
+                </ul>
+            </div>
         </div>
-    </div>
-    </div>
+    </nav>
 
 
     <div class="container">
@@ -401,7 +414,7 @@
             <p class="thu">FIRDAY - JULY 17 - 2020 </p>
       
     </div>
-</div>
+
     <br><br><br>
 
     <div class="container">
@@ -878,12 +891,12 @@
         </div>
     </div>
   
-    </div>
+    
 
-    </div>
+    
 
-
-    <footer class="nav navbar-form">
+    <div class="container">
+    <footer class="navbar navbar-form">
 
 
         <div class="row">
@@ -920,7 +933,7 @@
         </div>
 
     </footer>
-
+</div>
 
 </body>
 

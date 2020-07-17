@@ -55,7 +55,7 @@
         .a3 {
             color: white;
 
-            font-size: 1em;
+            font-size: 1.5em;
         }
 
         footer {
@@ -245,35 +245,36 @@
         margin: auto;
         text-align: center;
     }  
-    .navbar a1,
-        li {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
-            font-size: 1.5em !important;
-            letter-spacing: 3px;
-            opacity: 0.9;
-            margin-left: 4em;
+    .nav a{
+            font-size: 2em;
+            margin-left: 1em;
+           
         }
+        .navbar-nav li a:hover {
+      color:black !important;
+    }
+        
+     
+        
+    .navbar1 {
 
-        .nav {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
+background-color: gray;
 
-        }  
-        header{
-            padding-top: 5em;
-        }
+height: 7em;
+opacity: 0.8;
+width: 5em;
+margin-left: auto;
+
+}
     </style>
 </head>
 
 <body>
-    <div style="background-color: lightgray;">
+   
     <div class="container">
     <header>
         <div>
-            <p class="p1" style="background-color: white;"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+            <p id="p1" class="p1" style="background-color: white;"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
         </div>
 
 
@@ -284,12 +285,11 @@
             DNBC NEWS website
             - - - - </marquee>
     </header>
-</div>
 
-    <div class="row">
-        <div class="col-xs-12 col-md-12 col-sm-12">
-            <nav class="nav navbar-default navbar-fixed-top">
-                <ul class="nav navbar-nav navbar-form">
+
+      
+            <nav class="navbar navbar-form">
+                <ul class="nav navbar-nav">
                     <li><a style="color: white;" href="home.html">HOME</a></li>
                     <li><a style="color: white;" href="news.html">NEWS</a></li>
                     <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
@@ -297,15 +297,34 @@
                     <li><a style="color: white;" href="tech.html">TECH</a></li>
                     <li><a style="color: white;" href="city2.html">CITY</a></li>
                     <li><a style="color: white;" href="feeback.html">FEEDBACK</a></li>
-    
+            
                 </ul>
-                
             </nav>
+                <nav class="navbar1 navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+            
+                            </button>
+            
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <i
+                                        style="font-size: 4em; color: white; margin-left: .7em;"class="fas fa-long-arrow-alt-up"></i><br>
+                                <a style="color: white; text-decoration: white; margin-right: .6em;" href="#p1">Top</a>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            
            
         </div>
-    </div>
+   
   
         <div class="container">
+            <div style="background-color: lightgray;">
             <div>
                 <p class="pnews">COVID</p>
                  <p class="thu">FIRDAY - JULY 17 - 2020 </p>   
@@ -398,7 +417,7 @@
                 <h2 class="a23">SUMMARY OF COVID INFORMATION</h2>
 
             <br><br><br>
-                <div style="border: black solid; padding: 1em; background-color: white;">
+                <div style="border: black solid; padding: 1em; background-color: lightgray;">
                 <div id="myCarousel1" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -574,7 +593,7 @@
 
 
 
-    <footer class="nav navbar-form">
+    <footer class="navbar navbar-form">
 
 
         <div class="row">

@@ -47,7 +47,7 @@
         .a3 {
             color: white;
 
-            font-size: 1em;
+            font-size: 1.5em;
         }
 
         footer {
@@ -221,28 +221,7 @@
             margin-top: -4em;
         }
 
-        .navbar a1,
-        li {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
-            font-size: 1.5em !important;
-            letter-spacing: 3px;
-            opacity: 0.9;
-            margin-left: 4em;
-        }
-
-        .nav {
-            margin-bottom: 0;
-            background-color: black;
-            border: 0;
-
-        }
-
-        header {
-            padding-top: 4.5em;
-        }
-
+       
         .bordersport1 {
             background-color: white;
             overflow: auto;
@@ -287,15 +266,34 @@
             width: 300px;
             height: 200px;
         }
+        .nav a{
+            font-size: 2em;
+            margin-left: 1em;
+           
+        }
+        .navbar-nav li a:hover {
+      color:black !important;
+    }
+    .navbar1 {
+
+background-color: gray;
+
+height: 7em;
+opacity: 0.8;
+width: 5em;
+margin-left: auto;
+
+}
     </style>
 </head>
 
 <body>
-    <div style="background-color: lightgray;">
+    
     <div class="container"> 
+        
     <header>
         <div>
-            <p style="background-color: white;" class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
+            <p id="p1" style="background-color: white;" class="p1"><img class="img1" src="poster6_12_123229.jpeg">DNBC NEWS </p>
         </div>
 
 
@@ -306,21 +304,42 @@
             - - - - </marquee>
     </header>
 </div>
-    <nav class="nav navbar-default navbar-fixed-top">
-        <ul class="nav navbar-nav navbar-form">
-            <li><a style="color: white;" href="home.html">HOME</a></li>
-            <li><a style="color: white;" href="news.html">NEWS</a></li>
-            <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
-            <li><a style="color: white;" href="sport.html">SPORT</a></li>
-            <li><a style="color: white;" href="tech.html">TECH</a></li>
-            <li><a style="color: white;" href="city2.html">CITY</a></li>
-            <li><a style="color: white;" href="feeback.html">FEEDBACK</a></li>
+<div class="container">
+<nav class="navbar navbar-form">
+    <ul class="nav navbar-nav">
+        <li><a style="color: white;" href="home.html">HOME</a></li>
+        <li><a style="color: white;" href="news.html">NEWS</a></li>
+        <li><a style="color: white;" href="covid2.html">COVID-19</a></li>
+        <li><a style="color: white;" href="sport.html">SPORT</a></li>
+        <li><a style="color: white;" href="tech.html">TECH</a></li>
+        <li><a style="color: white;" href="city2.html">CITY</a></li>
+        <li><a style="color: white;" href="feeback.html">FEEDBACK</a></li>
 
-        </ul>
-       
+    </ul>
+    <nav class="navbar1 navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <i
+                            style="font-size: 4em; color: white; margin-left: .7em;"class="fas fa-long-arrow-alt-up"></i><br>
+                    <a style="color: white; text-decoration: white; margin-right: .6em;" href="#p1">Top</a>
+                </ul>
+            </div>
+        </div>
     </nav>
+</nav>
+</div>
+
    
         <div class="container">
+            <div style="background-color: lightgray;">
             <div >
                 <p class="pnews">NEWS</p>
                 <p class="thu">FIRDAY - JULY 17 - 2020 </p>
@@ -380,7 +399,7 @@
                     </div>
 
 
-                </div>
+                
             <div class="col-md-12 col-sm-12 col-xs-12">
                 
                     <h2 class="newh2"><a class="newh2" href="news.html">NEWS</a> </h2>
@@ -496,8 +515,8 @@
 
 
 
-
-    <footer class="nav navbar-form">
+       
+    <footer class="navbar navbar-form">
 
 
         <div class="row">
@@ -530,7 +549,7 @@
         </div>
 
     </footer>
-
+</div>
 </body>
 
 </html>
