@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 1px black;
+    margin-bottom: 10px;
+}
+
+.header__img{
+    width: 300px;
+    height: 300px;
+}
+
+.header__img img{
+    width: 100%;
+    height: 100%;
+}
+
+.header__name p{
+    font-size: 120px
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    align-items:center;
+    background-color: black;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.menu a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.p2 {
+    color: white;
+}
+
+.pnews {
+    font-size: 5em;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 1em;
+
+}
+
+
+.a2 {
+    font-size: 1em;
+    color: white;
+    text-decoration: none  !important;
+
+}
+
+.a3 {
+    color: white;
+    text-decoration: none !important;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: black;
+}
+
+
+
+
+h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+
+
+.imgh1 {
+    width: 100%;
+    height: 600px;
+}
+
+.imgh1 img{
+    width: 100%;
+    height: 100%;
+} 
+
+
+.imgh2 {
+    width: 100%;
+    height: 290px;
+}
+
+.imgh2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+h1 {
+    background-color: white;
+    opacity: 0.8;
+    font-size: 1.5em;
+
+}
+
+.h2{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: white;
+    width: 30%;
+    opacity: 0.8;
+    color: red;
+    font-size: 1.1em;
+    text-decoration: none !important;
+}
+
+.h2:hover{
+    color: black;
+}
+
+.carousel-caption h1{
+    padding: 10px;
+}
+
+
+h4 {
+    background-color: white;
+    opacity: 0.8;
+    font-size: 1em;
+    padding:10px;
+    
+}
+
+a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+
+marquee {
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    font-weight: bolder;
+
+}
+
+.marquee1 {
+    background-color: grey;
+    color: white;
+    padding: 1em;
+}
+
+.cap {
+    margin-top: -10em;
+}
+
+.imgnew {
+    width : 100%;
+    height : 200px;
+    margin-bottom: 10px;
+}
+
+.imgnew img{
+    width : 100%;
+    height : 100%;
+}
+
+.anew {
+    font-size: 1em;
+    text-decoration: none;
+    padding-top: 1em;
+
+
+}
+
+.tops-news{
+
+}
+
+
+.newh2 {
+    background-color: black;
+    color: white;
+    text-decoration: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.newh2 a{
+    color: white;
+    text-decoration: none
+}
+
+.imgcity {
+    width: 100%;
+    height: 535px;
+}
+
+.imgcity img{
+    width: 100%;
+    height: 100%;
+}
+
+.anewcity {
+    font-size: 1.5em !important;
+    text-decoration: none !important;
+    text-align: center;
+
+
+}
+
+.h2city {
+    font-weight: bolder;
+    background-color: black;
+    width: 11em;
+    text-align: center;
+    color: white;
+
+}
+
+.anew1 {
+    font-size: 1em;
+    text-decoration: none;
+    overflow: visible;
+}
+
+.newh3 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding:15px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.border {
+    border: black solid;
+    border-style: initial;
+    background-color: white;
+    padding:10px;
+    width: 100%;
+}
+
+
+.border:hover {
+    transform: translateY(1em);
+    transition: all ease-in-out 1s;
+}
+
+.thu {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -4em;
+    font-weight: bold;
+}
+
+.anews {
+    padding-top: 1em;
+    font-size: .8em;
+  
+}
+
+.imgnew1 {
+    width: 100px;
+    float: left;
+    clear: both;
+    height: 90px;
+    padding-right: 1em;
+}
+
+.border1 {
+    border-style: inherit;
+    width: 100%;
+    height: 775px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.border__city {
+    border-style: inherit;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+
+}
+
+
+.imgcovid {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 10px;
+}
+
+.imgcovid img{
+    width: 100%;
+    height: 100%;
+}
+
+.news-covid{
+    width: 96%;
+    padding: 10px;
+    background-color: white;
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+
+.acovid {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: black;
+    text-decoration: none;
+
+}
+
+.imgcovid1 {
+    width:  100%;
+    height: 180px;
+    padding-right: 1em;
+    margin-bottom: 10px;
+}
+
+.imgcovid1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.covid-content{
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content:space-around;
+}
+
+.acovid1 {
+    font-size: 1em;
+    color: black;
+
+}
+
+.imgcovid2 {
+    width: 100px;
+    height: 100px;
+    float: right;
+    clear: both;
+}
+
+.border2 {
+    width: 100%;
+    background-color: white;
+    border-style: inherit;
+    padding: 1em;
+}
+
+.imgsport {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.imgsport img{
+    width: 100%;
+    height: 100%;
+}
+
+.asport {
+    font-size: 2em;
+    color: white;
+}
+
+.imgsport2 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px
+}
+
+.imgsport2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgtech {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 1em;
+}
+
+.imgtech img{
+    width: 100%;
+    height: 100%;
+}
+
+.tech__content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.tech__content--a{
+    height: 80px;
+}
+
+.sport{
+    background-color: white;
+    padding: 10px;
+}
+
+.sport__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sport__content--a{
+    height:130px ;
+}
+
+.bordersport1 {
+    background-color: white;
+    overflow: auto;
+}
+.nav a{
+    font-size: 2em;
+    margin-left: 1em;
+   
+}
+.navbar-nav li a:hover {
+color:black !important;
+}
+
+.navbar1 {
+background-color: gray;
+height: 7em;
+opacity: 0.8;
+width: 5em;
+margin-left: auto;
+
+}
+
+.menu-ul{
+    background-color:black;
+    padding: 15px;
+    display: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.bars{
+    font-size:25px;
+    color:white;
+}
+
+.menu-responsive{
+    display: none;
+    list-style: none;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    left: 14px;
+    bottom: 0;
+    right: 14px;
+    z-index: 100;
+    padding: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.menu-responsive li a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+.show{
+    display: block;
+}
+
+/* mobile < 740px */
+@media only  screen and (max-width:740px ){
+    .menu{
+        display: none;
+    }
+
+    .menu-ul{
+        display: flex;
+    }
+
+    .header__img {
+        width: 200px;
+        height: 200px;
+    }
+    #p1{
+        font-size:40px;
+    }
+
+}
