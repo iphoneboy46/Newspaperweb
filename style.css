@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size:16px;
+}
+a{
+    color: #000;
 }
 
 .header__content{
@@ -12,6 +18,7 @@
     align-items: center;
     border: solid 1px black;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .header__img{
@@ -57,28 +64,42 @@
     color: white;
 }
 
+
+
 .pnews {
-    font-size: 5em;
-    background-color: grey;
+    font-size: 80px;
     text-align: center;
     color: white;
     font-weight: bolder;
-    padding: 1em;
-
+    margin-bottom: 20px;
 }
 
+.content{
+    width: 100%;
+    background-color:grey !important;
+    padding: 20px;
+}
 
 .a2 {
     font-size: 1em;
     color: white;
-    text-decoration: none  !important;
+    text-decoration: none !important;
+    font-weight: bolder;
+}
 
+.a2:hover {
+    color: white;
 }
 
 .a3 {
     color: white;
-    text-decoration: none !important;
+    text-decoration:none !important;
     font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.a3:hover {
+    color:white;
 }
 
 footer {
@@ -153,13 +174,6 @@ h4 {
     
 }
 
-a {
-    color: black;
-    font-weight: bolder;
-    text-decoration: none;
-
-}
-
 
 marquee {
     background-color: black;
@@ -194,12 +208,11 @@ marquee {
     font-size: 1em;
     text-decoration: none;
     padding-top: 1em;
-
-
 }
 
 .tops-news{
-
+    display: flex;
+    align-items: center;
 }
 
 
@@ -232,8 +245,6 @@ marquee {
     font-size: 1.5em !important;
     text-decoration: none !important;
     text-align: center;
-
-
 }
 
 .h2city {
@@ -278,14 +289,21 @@ marquee {
 .thu {
     text-align: center;
     font-size: 1.5em;
-    margin-top: -4em;
     font-weight: bold;
 }
 
+.news__content{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.news__content--a{
+    height: 120px;
+}
+
 .anews {
-    padding-top: 1em;
     font-size: .8em;
-  
 }
 
 .imgnew1 {
@@ -341,7 +359,7 @@ marquee {
     color: black;
     text-decoration: black;
     text-decoration: none;
-
+    margin-bottom: 10px;
 }
 
 .imgcovid1 {
@@ -358,6 +376,10 @@ marquee {
 
 .covid-content{
     width: 100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
 }
 
 .wrapper{
@@ -366,7 +388,7 @@ marquee {
 }
 
 .acovid1 {
-    font-size: 1em;
+    font-size: 14px;
     color: black;
 
 }
@@ -404,6 +426,7 @@ marquee {
 .imgsport2 {
     width: 100%;
     height: 200px;
+    flex-shrink: 0;
     margin-bottom: 10px
 }
 
@@ -430,7 +453,7 @@ marquee {
 }
 
 .tech__content--a{
-    height: 80px;
+    height: 100px;
 }
 
 .sport{
@@ -441,12 +464,15 @@ marquee {
 .sport__content{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .sport__content--a{
-    height:130px ;
+   height:180px;
+   text-align: start;
 }
+
+
 
 .bordersport1 {
     background-color: white;
@@ -514,10 +540,24 @@ margin-left: auto;
     display: block;
 }
 
+.hidden{
+    display: none;
+}
+
+.exits{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
 /* mobile < 740px */
 @media only  screen and (max-width:740px ){
     .menu{
         display: none;
+    }
+
+    .anew{
+        font-size: 14px;
     }
 
     .menu-ul{
@@ -532,4 +572,88 @@ margin-left: auto;
         font-size:40px;
     }
 
+    .border{
+        margin-bottom:10px;
+    }
+
+    .acovid{
+        font-size: 14px;
+    }
+
+    .acovid1{
+        font-size: 10px;
+    }
+
+    .imgcovid1{
+        width: 100px;
+        height: 100px;
+    }
+
+    .imgcovid1 img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .covid-content{
+        height:100px;
+        margin-left: 5px;
+    }
+
+    .sport__content--i{
+        font-size: 10px ;
+    }
+
+    .news__content--a{
+        height: 80px;
+    }
+
+    .news__content--i{
+        font-size: 10px;
+    }
+
+    .news-covid i{
+        font-size: 10px !important;
+    }
+
+    .tops-news{
+        margin-bottom: 10px;
+    }
+
+    .border1{
+        height:900px;
+    }
+
+    .tech__content--i{
+        font-size: 10px;
+    }
+}
+
+
+/* tablet */
+@media only screen and  (min-width:768px) and (max-width:1024px){
+    .menu{
+        display: none;
+    }
+    .menu-ul{
+        display: flex;
+    }
+
+    .sport__content--a{
+        font-size:10px;
+        height:100px ;
+    }
+}
+
+@media only screen and  (max-width:768px){
+    .menu{
+        display: none;
+    }
+    .menu-ul{
+        display: flex;
+    }
+
+    .sport__content--a{
+        font-size:10px;
+        height:100px ;
+    }
 }

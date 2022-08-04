@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous">
     <script src="jquery/jquery-3.2.1.min.js"></script>
     <script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
@@ -47,6 +46,9 @@
             <div class="bars">
                 <i class="fa-solid fa-bars"></i>
             </div>
+            <div class="exits">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
         </div>
         <ul class="menu-responsive">
             <li><a href="news.html">NEWS</a></li>
@@ -59,12 +61,11 @@
         </ul>
     </div>
     <div class="container">
-        <p class="pnews">HOME</p>
-        <p class="thu">FIRDAY - JULY 17 - 2020 </p>
+        <div class="content">
+            <p class="pnews">HOME</p>
+            <p class="thu">FIRDAY - JULY 17 - 2020 </p>
+        </div>
     </div>
-
-    <br><br><br>
-
     <div class="container">
         <div style="background-color: lightgray; padding: 10px;">
             <div class="row">
@@ -188,37 +189,58 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-md-4 col-lg-4">
+                        <div class="col-12 col-sm-4 col-lg-4">
                             <div class="border">
-                                <div><img class="imgnew" src="home/h15.jpg"><a class="anew" href="new/new1.html"
-                                        style="text-decoration: none;">
-                                        House collapses as lightning storms and rain spark flooding chaos
-                                        overnight</a><br>
-                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
-                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                <div class="news__content">
+                                    <div class="imgnew">
+                                        <img src="home/h15.jpg">
+                                    </div>
+                                    <div class="news__content--a">
+                                        <a class="anew" href="new/new1.html" style="text-decoration: none;">
+                                            House collapses as lightning storms and rain spark flooding chaos
+                                            overnight</a>
+                                    </div>
+                                    <div class="news__content--i">
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                    </div>
                                     </h1>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-4">
+                        <div class="col-12 col-sm-4 col-lg-4">
                             <div class="border">
-                                <div><img class="imgnew" src="home/h16.jpg"><br>
-                                    <a class="anew" href="covid2/covid3.html" style="text-decoration: none;"> UK
-                                        coronavirus official death toll jumps by 233 as grim total nears 42,000
-                                    </a><br>
-                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
-                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                <div class="news__content">
+                                    <div class="imgnew">
+                                        <img src="home/h16.jpg">
+                                    </div>
+                                    <div class="news__content--a">
+                                        <a class="anew" href="covid2/covid3.html" style="text-decoration: none;"> UK
+                                            coronavirus official death toll jumps by 233 as grim total nears 42,000
+                                        </a>
+                                    </div>
+                                    <div class="news__content--i">
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-4">
+                        <div class="col-12 col-sm-4 col-lg-4">
                             <div class="border">
-                                <div><img class="imgnew" src="home/h17.jpg"><a class="anew" href="new/new2.html"
-                                        style="text-decoration: none;"><br>North
-                                        Korean army 'to move towards border for training near demilitarised
-                                        zone'</a><br>
-                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
-                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                <div class="news__content">
+                                    <div class="imgnew">
+                                        <img src="home/h17.jpg">
+                                    </div>
+                                    <div class="news__content--a">
+                                        <a class="anew" href="new/new2.html" style="text-decoration: none;">North
+                                            Korean army 'to move towards border for training near demilitarised
+                                            zone'</a>
+                                    </div>
+                                    <div class="news__content--i">
+                                        <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                            style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -290,7 +312,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-8 col-sm-8 col-lg-8">
+                <div class="col-12 col-sm-8 col-lg-8">
                     <h2 class="newh2"><a href="covid2.html">COVID</a> </h2>
                     <div class="border2">
                         <div>
@@ -302,12 +324,14 @@
                                 earn enough to
                                 be on tax
                                 system</a><br>
-                            <i style="font-size: 1em; color: black;" class="fas fa-eye"> 12345</i>
-                            <i style="color: black; font-size: 1em;" class="fas fa-comment"> 0 </i>
+                                <div class="sport__content--i">
+                                    <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                        style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                </div>
                         </div>
                         <br>
                         <div class="row">
-                            <div class="col-12 col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <div class="wrapper">
                                     <div class="imgcovid1">
                                         <img src="home/h7.jpg">
@@ -319,15 +343,15 @@
                                             so where
                                             does your town
                                             rank?
-                                        </a><br>
-                                        <i style="font-size: .8em; color: black;" class="fas fa-eye">
-                                            12345</i> <i style="color: black; font-size: .8em;" class="fas fa-comment">
-                                            0
-                                        </i>
+                                        </a>
+                                        <div class="sport__content--i">
+                                            <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                                style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12  col-lg-6">
+                            <div class="col-12 col-sm-6 col-lg-6">
                                 <div class="wrapper">
                                     <div class="imgcovid1">
                                         <img src="home/h8.jpg">
@@ -338,18 +362,18 @@
                                             HOPES London records fewer
                                             deaths than a normal week making it first region to emerge from
                                             Covid crisis
-                                        </a><br>
-                                        <i style="font-size: .8em; color: black;" class="fas fa-eye">
-                                            12345</i> <i style="color: black; font-size: .8em;" class="fas fa-comment">
-                                            0
-                                        </i>
+                                        </a>
+                                        <div class="sport__content--i">
+                                            <i style="font-size: .8em; color: black;" class="fas fa-eye"> 12345</i> <i
+                                                style="color: black; font-size: .8em;" class="fas fa-comment"> 0 </i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <h2 class="newh2"><a style="color: white;" href="city2.html">CITY</a></h2>
                     <div class="border__city">
                         <div class="imgcity">
@@ -370,7 +394,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="bordersport1">
-                                <div class="col-12 col-lg-6">
+                                <div class="col-12 col-sm-6 col-lg-6">
                                     <div class="sport">
                                         <div class="imgsport">
                                             <img src="home/h34.jpg">
@@ -391,7 +415,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-6">
+                                <div class="col-12 col-sm-6 col-lg-6">
                                     <div class="sport">
                                         <div class="imgsport">
                                             <img src="home/h32.jpg">
@@ -420,7 +444,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-sm-3 col-lg-3">
                     <div class="border">
                         <div class="sport__content">
                             <div class="imgsport2">
@@ -440,7 +464,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-sm-3 col-lg-3">
                     <div class="border">
                         <div class="sport__content">
                             <div class="imgsport2">
@@ -461,7 +485,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-sm-3 col-lg-3">
                     <div class="border">
                         <div class="sport__content">
                             <div class="imgsport2">
@@ -482,7 +506,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-3">
+                <div class="col-12 col-sm-3 col-lg-3">
                     <div class="border">
                         <div class="sport__content">
                             <div class="imgsport2">
@@ -504,7 +528,7 @@
             </div>
             <h2 class="newh2"><a href="tech.html">TECH</a></h2>
             <div class="row">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <div class="border">
                         <div class="tech__content">
                             <div class="imgtech">
@@ -523,7 +547,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <div class="border">
                         <div>
                             <div class="imgtech">
@@ -543,7 +567,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <div class="border">
                         <div class="tech__content">
                             <div class="imgtech">
@@ -571,16 +595,17 @@
     <div class="container">
         <footer class="navbar navbar-form">
             <div class="row">
-                <div class="col-md-4 col-sm-4 col-xs-4">
-                    <li><a class="a3" href="home.html">HOME</a></li>
-                    <li><a class="a3" href="news.html">NEWS</a></li>
-                    <li><a class="a3" href="covid2.html">COVID-19</a></li>
-                    <li><a class="a3" href="sport.html">SPORT</a></li>
-                    <li><a class="a3" href="tech.html">TECH</a></li>
-                    <li><a class="a3" href="city2.html">CITY</a></li>
-
+                <div class="col-12 col-sm-4 col-lg-4">
+                    <ul style="list-style-type: none;">
+                        <li><a class="a3" href="home.html">HOME</a></li>
+                        <li><a class="a3" href="news.html">NEWS</a></li>
+                        <li><a class="a3" href="covid2.html">COVID-19</a></li>
+                        <li><a class="a3" href="sport.html">SPORT</a></li>
+                        <li><a class="a3" href="tech.html">TECH</a></li>
+                        <li><a class="a3" href="city2.html">CITY</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-4 col-xs-4 col-sm-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <h3>Location</h3>
                     <i style="color: white;" class="fas fa-map-marker-alt"></i><a class="a2" href="location.html">
                         Lon Don</a><br>
@@ -590,7 +615,7 @@
                     <i style="color: white;" class="fas fa-phone-square-alt"> 0927110910</i><br>
 
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="col-12 col-sm-4 col-lg-4">
                     <h3>Follow</h3>
                     <i style="color: blue;" class="fab fa-facebook"></i><a class="a2" href="https://www.facebook.com/">
                         Facebook</a><br>
