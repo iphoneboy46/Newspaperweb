@@ -1,0 +1,57 @@
+.imgnew{
+    width: 100%;
+    height:400px;
+}
+
+.imgnew img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h2 {
+    color: red;
+    font-weight: bolder;
+    background-color: white;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+.anew a{
+    text-decoration: none;
+    color: black;
+}
+.bordersport1{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.news__content--i{
+    text-align: start;
+}
+
+.imgnew5{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.imgnew5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.anew1{
+    height: 100px;
+}
+
+.anew1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.border{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}

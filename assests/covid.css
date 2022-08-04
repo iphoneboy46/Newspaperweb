@@ -1,0 +1,103 @@
+.carousel-caption h2{
+    color:red;
+    font-weight: bolder;
+    background-color:white;
+    display: inline-block;
+    padding:15px;
+    margin-bottom: 20px;
+}
+
+.a__covids{
+    padding: 15px;
+    background-color:white;
+}
+
+.a__covids a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.imgh1{
+    width: 100%;
+    height: 610px;
+}
+
+.imgh1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.imgnew{
+    width: 100px;
+    height: 100px;
+}
+
+.imgnew img{
+    width: 100%;
+    height: 100%;
+}
+
+.anew a{
+    text-decoration: none;
+}
+
+.anew a:hover{
+    color:black;
+}
+
+.borderr{
+   background-color:white;
+   padding: 15px;
+}
+
+.anew1{
+    flex:1;
+    padding: 10px;
+}
+.anew1 a{
+    text-decoration: none;
+    color:black;
+}
+
+.covid__info{
+    display: flex;
+    align-items: center;
+}
+
+.a23{
+    font-size:40px;
+    font-weight:bolder;
+    text-align: center;
+    color: red;
+    padding: 10px 0;
+}
+
+.anh{
+    width:100%;
+    height:500px;
+}
+.anh img{
+    width: 100%;
+    height: 100%;
+}
+
+.h3khoa{
+    color:black;
+    font-weight: bolder;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    width: 700px;
+}
+
+th{
+    text-align: center;
+    height:50px;
+}
+
+td{
+    width: 10px;
+}
