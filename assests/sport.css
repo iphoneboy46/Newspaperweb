@@ -76,13 +76,17 @@
     height: 160px;
  }
 
+ .borderr:hover{
+    background-color: gray;
+ }
+
  .bordersport1{
     margin-bottom:20px;
  }
 
  .sport__content{
     padding: 10px;
-    background-color:white;
+    
     display: flex;
     flex-direction: column;
 }
@@ -100,9 +104,25 @@
     height: 180px;
 }
 
+.sport__content-1{
+    background-color:white;
+    padding: 10px;
+    transition: all 0.9s ease-in;
+}
+
+
+.sport__content-1:hover{
+    background-color:gray;
+  
+}
+
 .sport__infos{
     flex: 1;
     padding: 10px;
+}
+
+.sport__infos:hover{
+    background-color: gray;
 }
 
 .sport__content2{
@@ -141,6 +161,10 @@
 
 .borderrr{
     background-color:white;
+}
+
+.borderrr:hover{
+    background-color: gray;
 }
 
 .imggolf{

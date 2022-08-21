@@ -208,7 +208,13 @@ marquee {
     font-size: 1em;
     text-decoration: none;
     padding-top: 1em;
+    color: black !important;   
 }
+
+.anew a{
+    color: black;
+}
+
 
 .tops-news{
     display: flex;
@@ -256,10 +262,10 @@ marquee {
 
 }
 
-.anew1 {
+.anew1 a{
+    color: black;
     font-size: 1em;
-    text-decoration: none;
-    overflow: visible;
+    text-decoration: none !important;
 }
 
 .newh3 {
@@ -282,7 +288,7 @@ marquee {
 
 
 .border:hover {
-    transform: translateY(1em);
+    background-color: darkgray;
     transition: all ease-in-out 1s;
 }
 
@@ -478,6 +484,7 @@ marquee {
     background-color: white;
     overflow: auto;
 }
+
 .nav a{
     font-size: 2em;
     margin-left: 1em;
@@ -550,15 +557,49 @@ margin-left: auto;
     font-size: 20px;
 }
 
+.btn__top{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color:gray;
+    width: 80px;
+    height: 80px;
+    color: white;
+    font-size: 5px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.btn__top a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.bordersport1:hover{
+    background-color: gray;
+}
 /* mobile < 740px */
 @media only  screen and (max-width:740px ){
+    
+
+    .btn__top{
+        display: none !important;
+    }
+
     .menu{
         display: none;
     }
 
     .anew{
         font-size: 14px;
+        color: black;
     }
+
 
     .menu-ul{
         display: flex;
@@ -615,6 +656,7 @@ margin-left: auto;
         font-size: 10px !important;
     }
 
+
     .tops-news{
         margin-bottom: 10px;
     }
@@ -631,6 +673,11 @@ margin-left: auto;
 
 /* tablet */
 @media only screen and  (min-width:768px) and (max-width:1024px){
+    .btn__top{
+        display: none !important;
+    }
+
+
     .menu{
         display: none;
     }
@@ -640,7 +687,12 @@ margin-left: auto;
 
     .sport__content--a{
         font-size:10px;
-        height:100px ;
+        height:140px ;
+    }
+
+    .tech__content--a{
+        font-size:10px;
+        height:100px;
     }
 }
 
@@ -654,6 +706,11 @@ margin-left: auto;
 
     .sport__content--a{
         font-size:10px;
-        height:100px ;
+        height:140px ;
+    }
+
+    .tech__content--a{
+        font-size:10px;
+        height:80px ;
     }
 }
